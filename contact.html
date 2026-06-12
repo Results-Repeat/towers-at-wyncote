@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact · Luxe Harmony</title>
+<meta name="description" content="Reserve your wedding date with Luxe Harmony. We respond to every inquiry within 24 hours." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style-luxeharmony.css">
+</head>
+<body>
+
+<aside class="announcement-bar" role="region" aria-label="Site announcement">
+  <div class="container announcement-bar__inner">
+    <p class="announcement-bar__text">Now booking 2026 &amp; 2027 weddings</p>
+    <a class="announcement-bar__link" href="contact.html">Reserve your date</a>
+  </div>
+</aside>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="site-header" id="site-header" role="banner">
+  <div class="container site-header__inner">
+    <a href="index.html" class="site-header__logo" aria-label="Luxe Harmony"><span class="site-header__logo-text">Luxe Harmony</span></a>
+    <nav class="site-header__nav" aria-label="Primary">
+      <ul class="site-header__nav-list" role="list">
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="about.html">About</a></li>
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="services.html">Services</a></li>
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="locations.html">Locations</a></li>
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="blog.html">Blog</a></li>
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="faq.html">FAQ</a></li>
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="site-header__toggle" id="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main-content" tabindex="-1">
+
+  <section class="section-hero section-hero--inner-page" style="background-image:url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1920&q=80');">
+    <div class="section-hero__overlay" aria-hidden="true"></div>
+    <div class="container section-hero__inner">
+      <span class="section-hero__preheader">Reserve Your Date</span>
+      <h1 class="section-hero__header">Tell us about your celebration.</h1>
+      <p class="section-hero__subheader">Share the details of your day — we'll respond within 24 hours with availability and a tailored quote.</p>
+    </div>
+  </section>
+
+  <section class="section-contact-form-and-info">
+    <div class="container section-contact-form-and-info__inner">
+      <aside class="section-contact-form-and-info__info">
+        <span class="section-contact-form-and-info__preheader">Get in touch</span>
+        <h2 class="section-contact-form-and-info__header">We respond within 24 hours.</h2>
+        <div class="section-contact-form-and-info__content"><p>The Luxe Harmony team reads every inquiry ourselves — no third-party call centers, no auto-responders.</p></div>
+        <ul class="section-contact-form-and-info__items" role="list">
+          <li class="section-contact-form-and-info__item"><span class="section-contact-form-and-info__item-label">Service Areas</span><span class="section-contact-form-and-info__item-value">Florida · Texas<br/>Destination on request</span></li>
+          <li class="section-contact-form-and-info__item"><span class="section-contact-form-and-info__item-label">Call or Text</span><span class="section-contact-form-and-info__item-value">855.589.3687</span></li>
+          <li class="section-contact-form-and-info__item"><span class="section-contact-form-and-info__item-label">Email</span><span class="section-contact-form-and-info__item-value">info@luxeharmonymusic.com</span></li>
+          <li class="section-contact-form-and-info__item"><span class="section-contact-form-and-info__item-label">Response Time</span><span class="section-contact-form-and-info__item-value">Within 24 hours<br/>7 days a week</span></li>
+        </ul>
+      </aside>
+
+      <div class="section-contact-form-and-info__form-wrap">
+        <form id="contact-form" action="https://staticsites.40spaces.com/api/v1/form-submission" method="POST" novalidate>
+          <input type="hidden" name="site_uid" value="luxe-harmony">
+          <div class="form-row">
+            <div class="form-group"><label for="cf-name">Name <span aria-hidden="true">*</span></label><input type="text" id="cf-name" name="name" required autocomplete="name"></div>
+            <div class="form-group"><label for="cf-email">Email <span aria-hidden="true">*</span></label><input type="email" id="cf-email" name="email" required autocomplete="email"></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="cf-phone">Phone</label><input type="tel" id="cf-phone" name="phone" autocomplete="tel"></div>
+            <div class="form-group">
+              <label for="cf-interest">I'm interested in</label>
+              <select id="cf-interest" name="interest">
+                <option value="" disabled selected>Select an option</option>
+                <option value="Wedding Ceremony">Wedding Ceremony</option>
+                <option value="Full Wedding">Ceremony + Reception</option>
+                <option value="Cocktail Hour">Cocktail Hour Only</option>
+                <option value="Private Event">Private / Corporate Event</option>
+                <option value="General inquiry">General inquiry</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group form-group--full"><label for="cf-date">Event date</label><input type="date" id="cf-date" name="date"></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group form-group--full"><label for="cf-venue">Venue / location</label><input type="text" id="cf-venue" name="venue" placeholder="City + venue name"></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group form-group--full"><label for="cf-message">Tell us about your day</label><textarea id="cf-message" name="message" rows="5" placeholder="Ensemble preferences, special songs, atmosphere…"></textarea></div>
+          </div>
+          <button type="submit" id="submit-btn" class="btn btn--primary"><span class="submit-text">Send Inquiry</span></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ASSURANCE CTA -->
+  <section class="section-cta-band section-cta-band--light">
+    <div class="container section-cta-band__inner">
+      <div class="section-cta-band__text">
+        <h2 class="section-cta-band__header">Need to talk now?</h2>
+        <p class="section-cta-band__subheader">For events less than two weeks away, please call or text directly so we may serve you promptly.</p>
+        <div class="section-cta-band__actions">
+          <a href="tel:8555893687" class="btn btn--primary">Call 855.589.3687</a>
+          <a href="mailto:info@luxeharmonymusic.com" class="btn btn--secondary">Email Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container site-footer__inner">
+    <div class="site-footer__brand"><a href="index.html" class="site-footer__logo">Luxe Harmony</a><p class="site-footer__tagline">A refined musical experience.</p></div>
+    <nav class="site-footer__nav" aria-label="Footer"><h4 class="site-footer__heading">Explore</h4><ul role="list"><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="locations.html">Locations</a></li><li><a href="blog.html">Blog</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+    <div class="site-footer__contact"><h4 class="site-footer__heading">Reach Us</h4><address class="site-footer__address">Florida · Texas<br/>Destination on request</address><p><a href="tel:8555893687">855.589.3687</a></p><p><a href="mailto:info@luxeharmonymusic.com">info@luxeharmonymusic.com</a></p></div>
+  </div>
+  <div class="site-footer__bottom"><div class="container"><p>&copy; 2026 Luxe Harmony, LLC. All rights reserved. · 2025 Best Musician Award · Insured. <a href="style-guide.html" style="margin-left:1rem; color: var(--mauve-light); border-bottom: 1px dotted var(--mauve-light); padding-bottom: 1px;">View Style Guide ↗</a></p></div></div>
+</footer>
+
+<script src="./site.js" defer></script>
+<script src="./site-luxeharmony.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blog · Luxe Harmony</title>
+<meta name="description" content="Wedding music inspiration, planning tips, and stories from Luxe Harmony's most memorable performances." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style-luxeharmony.css">
+</head>
+<body>
+
+<aside class="announcement-bar" role="region" aria-label="Site announcement">
+  <div class="container announcement-bar__inner">
+    <p class="announcement-bar__text">Now booking 2026 &amp; 2027 weddings</p>
+    <a class="announcement-bar__link" href="contact.html">Reserve your date</a>
+  </div>
+</aside>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="site-header" id="site-header" role="banner">
+  <div class="container site-header__inner">
+    <a href="index.html" class="site-header__logo" aria-label="Luxe Harmony"><span class="site-header__logo-text">Luxe Harmony</span></a>
+    <nav class="site-header__nav" aria-label="Primary">
+      <ul class="site-header__nav-list" role="list">
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="about.html">About</a></li>
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="services.html">Services</a></li>
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="locations.html">Locations</a></li>
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="blog.html" aria-current="page">Blog</a></li>
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="faq.html">FAQ</a></li>
+        <li class="site-header__nav-item"><a class="site-header__nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="site-header__toggle" id="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main-content" tabindex="-1">
+
+  <section class="section-hero section-hero--inner-page" style="background-image:url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=80');">
+    <div class="section-hero__overlay" aria-hidden="true"></div>
+    <div class="container section-hero__inner">
+      <span class="section-hero__preheader">The Journal</span>
+      <h1 class="section-hero__header">Wedding music inspiration.</h1>
+      <p class="section-hero__subheader">Planning tips, repertoire highlights, and stories from our most memorable performances.</p>
+    </div>
+  </section>
+
+  <section class="section-posts-listing" data-source="posts" data-pagination="load_more" data-per-page="6">
+    <div class="container section-posts-listing__inner">
+      <header class="section-posts-listing__intro">
+        <span class="section-posts-listing__preheader">The Journal</span>
+        <h2 class="section-posts-listing__header">Essays &amp; field notes.</h2>
+      </header>
+
+      <div class="section-posts-listing__filters" role="tablist" aria-label="Post filters">
+        <button class="section-posts-listing__filter section-posts-listing__filter--active" data-filter="all" role="tab" aria-selected="true" type="button">All</button>
+        <button class="section-posts-listing__filter" data-filter="planning" role="tab" aria-selected="false" type="button">Planning Tips</button>
+        <button class="section-posts-listing__filter" data-filter="repertoire" role="tab" aria-selected="false" type="button">Repertoire</button>
+        <button class="section-posts-listing__filter" data-filter="real" role="tab" aria-selected="false" type="button">Real Weddings</button>
+      </div>
+
+      <article class="post-card post-card--featured">
+        <a class="post-card__media" href="#" tabindex="-1" aria-hidden="true"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="Choosing your processional song" loading="lazy"></a>
+        <div class="post-card__body">
+          <p class="post-card__meta"><time datetime="2026-05-18">May 18, 2026</time> &nbsp;·&nbsp; Planning Tips</p>
+          <h3 class="post-card__title"><a href="blog-post.html">Choosing your processional song.</a></h3>
+          <p class="post-card__excerpt">The piece you walk down the aisle to sets the tone for everything that follows. Here's how to choose with intention.</p>
+          <a class="post-card__link" href="#">Read more</a>
+        </div>
+      </article>
+
+      <ul class="section-posts-listing__list" role="list">
+        <li class="section-posts-listing__item" data-categories="planning">
+          <article class="post-card">
+            <a class="post-card__media" href="#" tabindex="-1" aria-hidden="true"><img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80" alt="String quartet vs solo violin" loading="lazy"></a>
+            <div class="post-card__body">
+              <p class="post-card__meta"><time datetime="2026-04-27">Apr 27, 2026</time> &nbsp;·&nbsp; Planning Tips</p>
+              <h3 class="post-card__title"><a href="blog-post.html">String quartet vs. solo violin.</a></h3>
+              <p class="post-card__excerpt">How venue size, guest count, and atmosphere should shape your ensemble decision.</p>
+              <a class="post-card__link" href="#">Read more</a>
+            </div>
+          </article>
+        </li>
+        <li class="section-posts-listing__item" data-categories="real">
+          <article class="post-card">
+            <a class="post-card__media" href="#" tabindex="-1" aria-hidden="true"><img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=900&q=80" alt="Florida wedding music guide" loading="lazy"></a>
+            <div class="post-card__body">
+              <p class="post-card__meta"><time datetime="2026-04-10">Apr 10, 2026</time> &nbsp;·&nbsp; Real Weddings</p>
+              <h3 class="post-card__title"><a href="blog-post.html">The Florida wedding music guide.</a></h3>
+              <p class="post-card__excerpt">From oceanfront ceremonies in Naples to garden weddings in Palm Beach — songs to set the mood.</p>
+              <a class="post-card__link" href="#">Read more</a>
+            </div>
+          </article>
+        </li>
+        <li class="section-posts-listing__item" data-categories="repertoire">
+          <article class="post-card">
+            <a class="post-card__media" href="#" tabindex="-1" aria-hidden="true"><img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Custom arrangements" loading="lazy"></a>
+            <div class="post-card__body">
+              <p class="post-card__meta"><time datetime="2026-03-22">Mar 22, 2026</time> &nbsp;·&nbsp; Repertoire</p>
+              <h3 class="post-card__title"><a href="blog-post.html">Custom arrangements — bringing your song to life.</a></h3>
+              <p class="post-card__excerpt">What it takes to translate your favorite track into a wedding-ready string arrangement.</p>
+              <a class="post-card__link" href="#">Read more</a>
+            </div>
+          </article>
+        </li>
+        <li class="section-posts-listing__item" data-categories="planning">
+          <article class="post-card">
+            <a class="post-card__media" href="#" tabindex="-1" aria-hidden="true"><img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=900&q=80" alt="Cocktail hour music" loading="lazy"></a>
+            <div class="post-card__body">
+              <p class="post-card__meta"><time datetime="2026-03-04">Mar 04, 2026</time> &nbsp;·&nbsp; Planning Tips</p>
+              <h3 class="post-card__title"><a href="blog-post.html">Cocktail hour music — jazz vs. strings.</a></h3>
+              <p class="post-card__excerpt">The mood differences, and how to choose what fits your reception flow.</p>
+              <a class="post-card__link" href="#">Read more</a>
+            </div>
+          </article>
+        </li>
+        <li class="section-posts-listing__item" data-categories="planning">
+          <article class="post-card">
+            <a class="post-card__media" href="#" tabindex="-1" aria-hidden="true"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=80" alt="Outdoor wedding music" loading="lazy"></a>
+            <div class="post-card__body">
+              <p class="post-card__meta"><time datetime="2026-02-15">Feb 15, 2026</time> &nbsp;·&nbsp; Planning Tips</p>
+              <h3 class="post-card__title"><a href="blog-post.html">Planning an outdoor ceremony with live music.</a></h3>
+              <p class="post-card__excerpt">Weather, sound, instrument care — the things every couple should know.</p>
+              <a class="post-card__link" href="#">Read more</a>
+            </div>
+          </article>
+        </li>
+        <li class="section-posts-listing__item" data-categories="repertoire">
+          <article class="post-card">
+            <a class="post-card__media" href="#" tabindex="-1" aria-hidden="true"><img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80" alt="First dance arrangements" loading="lazy"></a>
+            <div class="post-card__body">
+              <p class="post-card__meta"><time datetime="2026-01-30">Jan 30, 2026</time> &nbsp;·&nbsp; Repertoire</p>
+              <h3 class="post-card__title"><a href="blog-post.html">Arranging your first dance.</a></h3>
+              <p class="post-card__excerpt">What goes into translating a pop song into a string arrangement that holds up under the spotlight.</p>
+              <a class="post-card__link" href="#">Read more</a>
+            </div>
+          </article>
+        </li>
+      </ul>
+
+      <div class="section-posts-listing__pagination">
+        <button class="btn btn--secondary" type="button" data-action="load-more">Load more</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-cta-band section-cta-band--dark">
+    <div class="container section-cta-band__inner">
+      <div class="section-cta-band__text">
+        <h2 class="section-cta-band__header">Ready to plan your day?</h2>
+        <p class="section-cta-band__subheader">Let's compose your moment together.</p>
+        <div class="section-cta-band__actions">
+          <a href="contact.html" class="btn btn--primary">Begin Your Inquiry</a>
+          <a href="services.html" class="btn btn--secondary">View Packages</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container site-footer__inner">
+    <div class="site-footer__brand"><a href="index.html" class="site-footer__logo">Luxe Harmony</a><p class="site-footer__tagline">A refined musical experience.</p></div>
+    <nav class="site-footer__nav" aria-label="Footer"><h4 class="site-footer__heading">Explore</h4><ul role="list"><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="locations.html">Locations</a></li><li><a href="blog.html">Blog</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+    <div class="site-footer__contact"><h4 class="site-footer__heading">Reach Us</h4><address class="site-footer__address">Florida · Texas<br/>Destination on request</address><p><a href="tel:8555893687">855.589.3687</a></p><p><a href="mailto:info@luxeharmonymusic.com">info@luxeharmonymusic.com</a></p></div>
+  </div>
+  <div class="site-footer__bottom"><div class="container"><p>&copy; 2026 Luxe Harmony, LLC. All rights reserved. · 2025 Best Musician Award · Insured. <a href="style-guide.html" style="margin-left:1rem; color: var(--mauve-light); border-bottom: 1px dotted var(--mauve-light); padding-bottom: 1px;">View Style Guide ↗</a></p></div></div>
+</footer>
+
+<script src="./site.js" defer></script>
+<script src="./site-luxeharmony.js" defer></script>
+</body>
+</html>

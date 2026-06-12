@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Luxe Harmony — Style Guide</title>
+    <meta name="description" content="Reference render of the Luxe Harmony theme — a refined wedding-music brand applied across every canonical Generic-v2 section." />
+
+    <!-- THEME FONTS — Cormorant Garamond (display) + Montserrat (body). -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- BASE CSS — do not remove. The base styles are the working baseline; your theme loads after. -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- THEME CSS — Luxe Harmony overlay. -->
+    <link rel="stylesheet" href="./style-luxeharmony.css">
+
+
+</head>
+<body>
+
+
+<aside class="announcement-bar" role="region" aria-label="Site announcement">
+        <div class="container announcement-bar__inner">
+            <p class="announcement-bar__text">Now booking 2026 &amp; 2027 weddings</p>
+                            <a class="announcement-bar__link" href="/contact">Reserve your date</a>
+                    </div>
+    </aside>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="site-header" id="site-header" role="banner">
+    <div class="container site-header__inner">
+
+        <a href="/" class="site-header__logo" aria-label="Luxe Harmony">
+                            <span class="site-header__logo-text">Luxe Harmony</span>
+                    </a>
+
+                    <nav class="site-header__nav" aria-label="Primary">
+                <ul class="site-header__nav-list" role="list">
+                                            <li class="site-header__nav-item">
+                            <a class="site-header__nav-link" href="/about">About</a>
+                                                    </li>
+                                            <li class="site-header__nav-item">
+                            <a class="site-header__nav-link" href="/services">Services</a>
+                                                    </li>
+                                            <li class="site-header__nav-item">
+                            <a class="site-header__nav-link" href="locations.html">Locations</a>
+                                                    </li>
+                                            <li class="site-header__nav-item">
+                            <a class="site-header__nav-link" href="/blog">Blog</a>
+                                                    </li>
+                                            <li class="site-header__nav-item">
+                            <a class="site-header__nav-link" href="/faq">FAQ</a>
+                                                    </li>
+                                            <li class="site-header__nav-item">
+                            <a class="site-header__nav-link" href="/contact">Contact</a>
+                                                    </li>
+                                    </ul>
+            </nav>
+        
+        <button class="site-header__toggle" id="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<nav class="mobile-nav" id="mobile-nav" aria-hidden="true" aria-label="Mobile navigation">
+    <ul class="mobile-nav__list" role="list">
+                    <li><a class="mobile-nav__link" href="/about">About</a></li>
+                    <li><a class="mobile-nav__link" href="/services">Services</a></li>
+                    <li><a class="mobile-nav__link" href="locations.html">Locations</a></li>
+                    <li><a class="mobile-nav__link" href="/blog">Blog</a></li>
+                    <li><a class="mobile-nav__link" href="/faq">FAQ</a></li>
+                    <li><a class="mobile-nav__link" href="/contact">Contact</a></li>
+            </ul>
+</nav>
+
+<main id="main-content" tabindex="-1">
+    
+    <div class="style-guide-marker"><code>section-hero</code> · variant: <code>home-page</code></div>
+    <section class="section-hero section-hero--home-page" style="background-image:url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=80');">
+            <div class="section-hero__overlay" aria-hidden="true"></div>
+        <div class="container section-hero__inner">
+                    <span class="section-hero__preheader">Est. 2012 · Award-Winning Ensemble</span>
+                            <h1 class="section-hero__header">A refined soundtrack for the day you'll remember.</h1>
+                            <p class="section-hero__subheader">Grammy-nominated string musicians and jazz artists composing the music of your ceremony, cocktail hour, and reception.</p>
+                            <div class="section-hero__actions">
+                                    <a href="/contact" class="btn btn--primary">Reserve Your Date</a>
+                                                    <a href="/services" class="btn btn--secondary">Explore Our Music</a>
+                            </div>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-hero</code> · variant: <code>inner-page</code></div>
+    <section class="section-hero section-hero--inner-page" style="background-image:url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1920&q=80');">
+            <div class="section-hero__overlay" aria-hidden="true"></div>
+        <div class="container section-hero__inner">
+                    <span class="section-hero__preheader">About</span>
+                            <h1 class="section-hero__header">The story of Luxe Harmony.</h1>
+                            <p class="section-hero__subheader">A network of conservatory-trained artists devoted to the craft of wedding music.</p>
+                    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-intro-text</code> · variant: <code>default</code></div>
+    <section class="section-intro-text section-intro-text--default">
+    <div class="container section-intro-text__inner">
+                    <span class="section-intro-text__preheader">A Note from the Founder</span>
+                                            <h2 class="section-intro-text__header">Music written for the moments that matter most.</h2>
+                                                <div class="section-intro-text__content"><p>Founded in 2012 by violinist Krystle, Luxe Harmony has grown into a curated network of conservatory-trained string musicians and jazz artists — Grammy nominees, symphony members, and educators who have performed alongside Andrea Bocelli and Michael Bublé, and on stages from Carnegie Hall to St. Peter's Basilica.</p></div>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-intro-text</code> · variant: <code>centered</code></div>
+    <section class="section-intro-text section-intro-text--centered">
+    <div class="container section-intro-text__inner">
+                                            <h2 class="section-intro-text__header">Compose your moment.</h2>
+                                                <div class="section-intro-text__content"><p>We believe great music does more than fill a room. It frames the moments you'll remember for the rest of your life — the held breath as you walk down the aisle, the soft swell as you say your vows.</p></div>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-intro-text</code> · variant: <code>quote</code></div>
+    <section class="section-intro-text section-intro-text--quote">
+    <div class="container section-intro-text__inner">
+                                            <blockquote class="section-intro-text__quote">"My wedding string quartet was incredible. My guests were so impressed by the variety of songs and genres — every moment felt cinematic."</blockquote>
+                                        </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-intro-text</code> · variant: <code>with-cite</code></div>
+    <section class="section-intro-text section-intro-text--with-cite">
+    <div class="container section-intro-text__inner">
+                                            <blockquote class="section-intro-text__quote">"Luxe Harmony brought a kind of grace to our ceremony that I couldn't have imagined. Every guest commented on the music."</blockquote>
+                                        <p class="section-intro-text__subheader">— Jessica, April 2026 Bride</p>
+                    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-content-block</code> · variant: <code>image-left</code> · testimonial-under-body pattern + video media</div>
+    <section class="section-content-block section-content-block--image-left">
+        <div class="container section-content-block__inner">
+
+        <div class="section-content-block__text">
+                            <span class="section-content-block__preheader">Real Weddings</span>
+                                        <h2 class="section-content-block__header">Make your dreams come true.</h2>
+                                                    <div class="section-content-block__content">
+                                                      <p>No dream is too big for Luxe Harmony. From the very first note of your prelude to the final chord of your recessional, we are here to ensure your big day is the most beautiful day. Take it from Sarah:</p>
+                                                      <blockquote class="section-content-block__quote">
+                                                        <p>"From the moment the first note played, I knew Krystle's quartet was the right choice. Every guest told me afterward that the music made them cry. It was the moment our wedding turned into something I'll remember for the rest of my life."</p>
+                                                        <cite>— Sarah · March 2026 Bride, Naples</cite>
+                                                      </blockquote>
+                                                    </div>
+
+                            <div class="section-content-block__actions">
+                                            <a href="contact.html" class="btn btn--primary">Inquire About Your Date</a>
+                                            <a href="about.html" class="btn btn--secondary">Learn More About Us</a>
+                            </div>
+                    </div>
+
+                    <figure class="section-content-block__media">
+                <video src="./videos/12600192_1920_1080_25fps.mp4" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1525373698358-041e3a460346?auto=format&fit=crop&w=900&q=80" aria-label="Wedding ceremony performance"></video>
+            </figure>
+
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-content-block</code> · variant: <code>image-right</code></div>
+    <section class="section-content-block section-content-block--image-right">
+        <div class="container section-content-block__inner">
+
+        <div class="section-content-block__text">
+                            <span class="section-content-block__preheader">Cocktail Hour</span>
+                                        <h2 class="section-content-block__header">From Bach to Beyoncé.</h2>
+                                                    <div class="section-content-block__content"><p>Elegant strings and jazz standards that fill the air between vows and reception, setting a sophisticated, conversational atmosphere. A sweeping repertoire — classical, pop, film themes, Latin, Broadway, and your custom requests.</p></div>
+            
+            
+                    </div>
+
+                    <figure class="section-content-block__media">
+                <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80" alt="String quartet performing at cocktail hour" loading="lazy">
+            </figure>
+        
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-content-block</code> · variant: <code>image-bg</code></div>
+    <section class="section-content-block section-content-block--image-bg" style="background-image:url('https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=1920&q=80');">
+            <div class="section-content-block__overlay" aria-hidden="true"></div>
+        <div class="container section-content-block__inner">
+
+        <div class="section-content-block__text">
+                            <span class="section-content-block__preheader">Destination Weddings</span>
+                                        <h2 class="section-content-block__header">Florida, Texas, and everywhere love takes us.</h2>
+                                                    <div class="section-content-block__content"><p>Oceanfront ceremonies in Naples. Vineyard receptions in the Hill Country. Grand ballrooms in Miami. We travel for the celebrations worth traveling for.</p></div>
+
+
+                            <div class="section-content-block__actions">
+                                            <a href="/services" class="btn btn--primary">Plan Your Event</a>
+                                                        </div>
+                    </div>
+
+        
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-content-block</code> · variant: <code>no-image</code></div>
+    <section class="section-content-block section-content-block--no-image">
+        <div class="container section-content-block__inner">
+
+        <div class="section-content-block__text">
+                            <span class="section-content-block__preheader">Our Standard</span>
+                                        <h2 class="section-content-block__header">Every musician, auditioned and chosen.</h2>
+                                                    <div class="section-content-block__content"><p>We hire by audition only. Each musician is selected on three criteria: tone, sight-reading proficiency, and musicality. The result is an ensemble that doesn't merely play your songs — they interpret them, gracefully, in the moment, for you.</p></div>
+            
+            
+                    </div>
+
+        
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-content-block</code> · variant: <code>solid-color</code></div>
+    <section class="section-content-block section-content-block--solid-color">
+        <div class="container section-content-block__inner">
+
+        <div class="section-content-block__text">
+                            <span class="section-content-block__preheader">Our Values</span>
+                                        <h2 class="section-content-block__header">Love, in all of its beautiful forms.</h2>
+                                                    <div class="section-content-block__content"><p>Luxe Harmony is proudly LGBTQ+ friendly. We believe every couple deserves a soundtrack as singular as their story — and a team that celebrates it with them.</p></div>
+
+
+                    </div>
+
+
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-content-block</code> · variant: <code>image-right</code> · TESTIMONIAL DESIGN A — quote left · video right</div>
+    <section class="section-content-block section-content-block--image-right section-content-block--testimonial">
+        <div class="container section-content-block__inner">
+
+        <div class="section-content-block__text">
+                            <span class="section-content-block__preheader">In Her Words</span>
+                                        <h2 class="section-content-block__header">A wedding that felt cinematic.</h2>
+                                                    <div class="section-content-block__content">
+                                                      <blockquote class="section-content-block__quote section-content-block__quote--feature">
+                                                        <p>"My wedding string quartet was incredible. My guests were so impressed by the variety of songs and genres they were able to play — every moment felt cinematic, like the soundtrack of a film I had always wanted to be the lead in."</p>
+                                                        <cite>— Jessica · April 2026 Bride, Boca Raton</cite>
+                                                      </blockquote>
+                                                    </div>
+
+                            <div class="section-content-block__actions">
+                                            <a href="contact.html" class="btn btn--primary">Reserve Your Date</a>
+                            </div>
+                    </div>
+
+                    <figure class="section-content-block__media">
+                <video src="./videos/7095066-uhd_4096_2160_25fps.mp4" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80" aria-label="String quartet performing"></video>
+            </figure>
+
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-content-block</code> · variant: <code>image-left</code> · TESTIMONIAL DESIGN B — header + framing + quote + DUAL CTAs (Inquire / Learn More)</div>
+    <section class="section-content-block section-content-block--image-left section-content-block--testimonial">
+        <div class="container section-content-block__inner">
+
+        <div class="section-content-block__text">
+                            <span class="section-content-block__preheader">Real Weddings</span>
+                                        <h2 class="section-content-block__header">An ensemble couples remember by name.</h2>
+                                                    <div class="section-content-block__content">
+                                                      <p>Our musicians don't just play your wedding — they become part of it. Every recommendation comes from a couple who reached out months later, just to say thank you.</p>
+                                                      <blockquote class="section-content-block__quote">
+                                                        <p>"We compared eight different ensembles before we found Luxe Harmony — and the moment Krystle played us her demo, we knew. Six months later, our reception is still the one our friends talk about."</p>
+                                                        <cite>— Olivia &amp; Daniel · February 2026, Austin</cite>
+                                                      </blockquote>
+                                                    </div>
+
+                            <div class="section-content-block__actions">
+                                            <a href="contact.html" class="btn btn--primary">Inquire About Scheduling</a>
+                                            <a href="about.html" class="btn btn--secondary">Learn More About Us</a>
+                            </div>
+                    </div>
+
+                    <figure class="section-content-block__media">
+                <video src="./videos/13583070_3840_2160_25fps.mp4" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" aria-label="Wedding performance highlight"></video>
+            </figure>
+
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-content-block</code> · variant: <code>image-right</code> · video media (image-replacement example)</div>
+    <section class="section-content-block section-content-block--image-right">
+        <div class="container section-content-block__inner">
+
+        <div class="section-content-block__text">
+                            <span class="section-content-block__preheader">Hear For Yourself</span>
+                                        <h2 class="section-content-block__header">Sample our sound.</h2>
+                                                    <div class="section-content-block__content"><p>Every wedding we play is unrepeatable, but the through-line is consistency — tone, taste, and timing you can count on. Press play and listen.</p></div>
+
+                            <div class="section-content-block__actions">
+                                            <a href="services.html" class="btn btn--primary">View Repertoire</a>
+                                            <a href="contact.html" class="btn btn--secondary">Request a Custom Sample</a>
+                            </div>
+                    </div>
+
+                    <figure class="section-content-block__media">
+                <video src="./videos/12600192_1920_1080_25fps.mp4" controls poster="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=900&q=80" aria-label="Luxe Harmony sample performance"></video>
+            </figure>
+
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-feature-grid</code></div>
+    <section class="section-feature-grid">
+    <div class="container section-feature-grid__inner">
+                    <header class="section-feature-grid__intro">
+                <span class="section-feature-grid__preheader">Our Instruments</span>                <h2 class="section-feature-grid__header">An artisan's catalogue of sound.</h2>                <div class="section-feature-grid__content"><p>From a single violin to a full string quartet — instrumentation tailored to your venue, your guest count, and the atmosphere you're composing.</p></div>            </header>
+
+                    <ul class="section-feature-grid__list" role="list">
+                                    <li class="section-feature-grid__item">
+                                                    <span class="section-feature-grid__icon" aria-hidden="true" data-icon="violin"></span>
+                                                                            <h3 class="section-feature-grid__item-title">Strings</h3>
+                                                                            <p class="section-feature-grid__item-description">Violin, viola, and cello — the core of our ensemble. Lush, soaring, intimate.</p>
+                                            </li>
+                                    <li class="section-feature-grid__item">
+                                                    <span class="section-feature-grid__icon" aria-hidden="true" data-icon="harp"></span>
+                                                                            <h3 class="section-feature-grid__item-title">Harp</h3>
+                                                                            <p class="section-feature-grid__item-description">The most romantic of instruments — heavenly for ceremonies and cocktail hours.</p>
+                                            </li>
+                                    <li class="section-feature-grid__item">
+                                                    <span class="section-feature-grid__icon" aria-hidden="true" data-icon="piano"></span>
+                                                                            <h3 class="section-feature-grid__item-title">Piano</h3>
+                                                                            <p class="section-feature-grid__item-description">Solo piano or part of a trio. Elegant, classic, and endlessly versatile.</p>
+                                            </li>
+                                    <li class="section-feature-grid__item">
+                                                    <span class="section-feature-grid__icon" aria-hidden="true" data-icon="guitar"></span>
+                                                                            <h3 class="section-feature-grid__item-title">Guitar &amp; Ukulele</h3>
+                                                                            <p class="section-feature-grid__item-description">Acoustic warmth for outdoor and beachfront ceremonies.</p>
+                                            </li>
+                                    <li class="section-feature-grid__item">
+                                                    <span class="section-feature-grid__icon" aria-hidden="true" data-icon="jazz"></span>
+                                                                            <h3 class="section-feature-grid__item-title">Jazz Band</h3>
+                                                                            <p class="section-feature-grid__item-description">Sophisticated arrangements for cocktail hour and reception entertainment.</p>
+                                            </li>
+                                    <li class="section-feature-grid__item">
+                                                    <span class="section-feature-grid__icon" aria-hidden="true" data-icon="custom"></span>
+                                                                            <h3 class="section-feature-grid__item-title">Custom Arrangements</h3>
+                                                                            <p class="section-feature-grid__item-description">Your favorite song, arranged for strings. Request 2–4 weeks in advance.</p>
+                                            </li>
+                            </ul>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-stats-bar</code></div>
+    <section class="section-stats-bar">
+        <div class="container section-stats-bar__inner">
+            <ul class="section-stats-bar__list" role="list">
+                                    <li class="section-stats-bar__item">
+                                                    <span class="section-stats-bar__value">2012</span>
+                                                                            <span class="section-stats-bar__label">Established</span>
+                                            </li>
+                                    <li class="section-stats-bar__item">
+                                                    <span class="section-stats-bar__value">500+</span>
+                                                                            <span class="section-stats-bar__label">Weddings performed</span>
+                                            </li>
+                                    <li class="section-stats-bar__item">
+                                                    <span class="section-stats-bar__value">2025</span>
+                                                                            <span class="section-stats-bar__label">Best Musician Award</span>
+                                            </li>
+                                    <li class="section-stats-bar__item">
+                                                    <span class="section-stats-bar__value">FL · TX</span>
+                                                                            <span class="section-stats-bar__label">Service regions</span>
+                                            </li>
+                            </ul>
+        </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-card-grid</code> · variant: <code>default</code></div>
+    <section class="section-card-grid section-card-grid--default">
+    <div class="container section-card-grid__inner">
+                    <header class="section-card-grid__intro">
+                <span class="section-card-grid__preheader">Music Programs</span>                <h2 class="section-card-grid__header">Crafted for every part of your celebration.</h2>                            </header>
+
+                    <ul class="section-card-grid__list" role="list">
+                                    <li class="section-card-grid__card">
+                                                    <figure class="section-card-grid__media">
+                                <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80" alt="String quartet at a wedding ceremony" loading="lazy">
+                            </figure>
+                                                <div class="section-card-grid__body">
+                                                            <h3 class="section-card-grid__card-title">The Ceremony</h3>
+                                                                                        <div class="section-card-grid__card-content">Prelude, processional, vows, and recessional — softly woven classical and contemporary arrangements.</div>
+                                                                                        <a class="section-card-grid__cta" href="#">Learn more</a>
+                                                    </div>
+                    </li>
+                                    <li class="section-card-grid__card">
+                                                    <figure class="section-card-grid__media">
+                                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Cocktail hour music" loading="lazy">
+                            </figure>
+                                                <div class="section-card-grid__body">
+                                                            <h3 class="section-card-grid__card-title">Cocktail Hour</h3>
+                                                                                        <div class="section-card-grid__card-content">Elegant strings and jazz standards between vows and reception. Sophisticated. Conversational.</div>
+                                                                                        <a class="section-card-grid__cta" href="#">Hear samples</a>
+                                                    </div>
+                    </li>
+                                    <li class="section-card-grid__card">
+                                                    <figure class="section-card-grid__media">
+                                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Reception performance" loading="lazy">
+                            </figure>
+                                                <div class="section-card-grid__body">
+                                                            <h3 class="section-card-grid__card-title">Reception &amp; Dinner</h3>
+                                                                                        <div class="section-card-grid__card-content">From soft dinner sets to lively jazz, our musicians elevate the entire evening — first dance and beyond.</div>
+                                                                                        <a class="section-card-grid__cta" href="#">View options</a>
+                                                    </div>
+                    </li>
+                            </ul>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-card-grid</code> · variant: <code>text-only</code></div>
+    <section class="section-card-grid section-card-grid--text-only">
+    <div class="container section-card-grid__inner">
+                    <header class="section-card-grid__intro">
+                <span class="section-card-grid__preheader">Our Ensembles</span>                <h2 class="section-card-grid__header">From a single violin to a full quartet.</h2>                            </header>
+
+                    <ul class="section-card-grid__list" role="list">
+                                    <li class="section-card-grid__card">
+                                                <div class="section-card-grid__body">
+                                                            <h3 class="section-card-grid__card-title">Solo</h3>
+                                                                                        <div class="section-card-grid__card-content">Violin, cello, harp, or guitar — intimate and unforgettable. Ideal for under 20 guests.</div>
+                                                                                </div>
+                    </li>
+                                    <li class="section-card-grid__card">
+                                                <div class="section-card-grid__body">
+                                                            <h3 class="section-card-grid__card-title">Duo</h3>
+                                                                                        <div class="section-card-grid__card-content">Violin &amp; cello, harp &amp; flute, or jazz pairs. Balanced, rich, and refined.</div>
+                                                                                </div>
+                    </li>
+                                    <li class="section-card-grid__card">
+                                                <div class="section-card-grid__body">
+                                                            <h3 class="section-card-grid__card-title">Trio</h3>
+                                                                                        <div class="section-card-grid__card-content">Two violins with cello — or a refined jazz trio for cocktail and reception.</div>
+                                                                                </div>
+                    </li>
+                                    <li class="section-card-grid__card">
+                                                <div class="section-card-grid__body">
+                                                            <h3 class="section-card-grid__card-title">Quartet</h3>
+                                                                                        <div class="section-card-grid__card-content">Two violins, viola, cello — the timeless, full-bodied choice for weddings.</div>
+                                                                                </div>
+                    </li>
+                            </ul>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-process-grid</code></div>
+    <section class="section-process-grid">
+    <div class="container section-process-grid__inner">
+                    <header class="section-process-grid__intro">
+                <span class="section-process-grid__preheader">How it works</span>                <h2 class="section-process-grid__header">From first inquiry to your first dance.</h2>                            </header>
+
+                    <ol class="section-process-grid__list">
+                                    <li class="section-process-grid__step">
+                        <span class="section-process-grid__number">I</span>
+                                                    <h3 class="section-process-grid__step-title">Inquire</h3>
+                                                                            <div class="section-process-grid__step-content">Share your date, venue, and vision. We respond within 24 hours.</div>
+                                            </li>
+                                    <li class="section-process-grid__step">
+                        <span class="section-process-grid__number">II</span>
+                                                    <h3 class="section-process-grid__step-title">Reserve</h3>
+                                                                            <div class="section-process-grid__step-content">Choose your package and ensemble. A signed agreement secures your date.</div>
+                                            </li>
+                                    <li class="section-process-grid__step">
+                        <span class="section-process-grid__number">III</span>
+                                                    <h3 class="section-process-grid__step-title">Curate</h3>
+                                                                            <div class="section-process-grid__step-content">Build your repertoire together. Submit custom arrangement requests 2–4 weeks out.</div>
+                                            </li>
+                                    <li class="section-process-grid__step">
+                        <span class="section-process-grid__number">IV</span>
+                                                    <h3 class="section-process-grid__step-title">Celebrate</h3>
+                                                                            <div class="section-process-grid__step-content">We arrive early, set the tone, and play every moment exactly as you imagined.</div>
+                                            </li>
+                            </ol>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-image-display</code> · variant: <code>2-col</code></div>
+    <section class="section-image-display section-image-display--2-col">
+        <div class="container section-image-display__inner">
+            
+            <ul class="section-image-display__list" role="list">
+                                                            <li class="section-image-display__item">
+                            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80" alt="Lobby seating area" loading="lazy">
+                                                    </li>
+                                                                                <li class="section-image-display__item">
+                            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=80" alt="Mailroom and package wall" loading="lazy">
+                                                    </li>
+                                                </ul>
+        </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-image-display</code> · variant: <code>2x2</code></div>
+    <section class="section-image-display section-image-display--2x2">
+        <div class="container section-image-display__inner">
+            
+            <ul class="section-image-display__list" role="list">
+                                                            <li class="section-image-display__item">
+                            <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=80" alt="Bedroom interior" loading="lazy">
+                                                    </li>
+                                                                                <li class="section-image-display__item">
+                            <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=80" alt="Living-room reading corner" loading="lazy">
+                                                    </li>
+                                                                                <li class="section-image-display__item">
+                            <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=80" alt="Bathroom detail" loading="lazy">
+                                                    </li>
+                                                                                <li class="section-image-display__item">
+                            <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=80" alt="Closet system" loading="lazy">
+                                                    </li>
+                                                </ul>
+        </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-image-display</code> · variant: <code>4-up</code></div>
+    <section class="section-image-display section-image-display--4-up">
+        <div class="container section-image-display__inner">
+            
+            <ul class="section-image-display__list" role="list">
+                                                            <li class="section-image-display__item">
+                            <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=80" alt="Detail 1" loading="lazy">
+                                                    </li>
+                                                                                <li class="section-image-display__item">
+                            <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=80" alt="Detail 2" loading="lazy">
+                                                    </li>
+                                                                                <li class="section-image-display__item">
+                            <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=80" alt="Detail 3" loading="lazy">
+                                                    </li>
+                                                                                <li class="section-image-display__item">
+                            <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=80" alt="Detail 4" loading="lazy">
+                                                    </li>
+                                                </ul>
+        </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-image-display</code> · variant: <code>logo-grid</code></div>
+    <section class="section-image-display section-image-display--logo-grid">
+        <div class="container section-image-display__inner">
+                            <header class="section-image-display__intro">
+                    <span class="section-image-display__preheader">Trusted by</span>                    <h2 class="section-image-display__header">Selected partners and press.</h2>                </header>
+            
+            <ul class="section-image-display__list" role="list">
+                                                            <li class="section-image-display__item">
+                            <img src="https://placehold.co/200x80/ffffff/333333?text=Curbed" alt="Curbed" loading="lazy">
+                                                    </li>
+                                                                                <li class="section-image-display__item">
+                            <img src="https://placehold.co/200x80/ffffff/333333?text=Dwell" alt="Dwell" loading="lazy">
+                                                    </li>
+                                                                                <li class="section-image-display__item">
+                            <img src="https://placehold.co/200x80/ffffff/333333?text=NYTimes" alt="NYTimes" loading="lazy">
+                                                    </li>
+                                                                                <li class="section-image-display__item">
+                            <img src="https://placehold.co/200x80/ffffff/333333?text=Architectural+Digest" alt="Architectural Digest" loading="lazy">
+                                                    </li>
+                                                </ul>
+        </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-gallery</code> · variant: <code>filterable</code></div>
+    <section class="section-gallery section-gallery--filterable">
+    <div class="container section-gallery__inner">
+                    <header class="section-gallery__intro">
+                <span class="section-gallery__preheader">Gallery</span>                <h2 class="section-gallery__header">See &amp; hear the ensemble.</h2>            </header>
+        
+                    <div class="section-gallery__filters" role="tablist" aria-label="Gallery filters">
+                <button class="section-gallery__filter section-gallery__filter--active" data-filter="all" role="tab" aria-selected="true" type="button">All</button>
+                                    <button class="section-gallery__filter" data-filter="Residences" role="tab" aria-selected="false" type="button">Ceremonies</button>
+                                    <button class="section-gallery__filter" data-filter="Amenities" role="tab" aria-selected="false" type="button">Receptions</button>
+                                    <button class="section-gallery__filter" data-filter="Neighborhood" role="tab" aria-selected="false" type="button">Behind the Scenes</button>
+                            </div>
+        
+        <ul class="section-gallery__grid" role="list">
+                                                                                                                <li class="section-gallery__item" data-category="Residences">
+                            <button class="section-gallery__trigger" type="button" aria-label="View image: Outdoor wedding ceremony with arch">
+                                <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=800&q=80" data-full="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=800&q=80" alt="Outdoor wedding ceremony with arch" loading="lazy">
+                            </button>
+                        </li>
+                                                                                                        <li class="section-gallery__item" data-category="Residences">
+                            <button class="section-gallery__trigger" type="button" aria-label="View image: String quartet playing during ceremony">
+                                <img src="https://images.unsplash.com/photo-1525373698358-041e3a460346?auto=format&fit=crop&w=800&q=80" data-full="https://images.unsplash.com/photo-1525373698358-041e3a460346?auto=format&fit=crop&w=800&q=80" alt="String quartet playing during ceremony" loading="lazy">
+                            </button>
+                        </li>
+                                                                                                        <li class="section-gallery__item" data-category="Residences">
+                            <button class="section-gallery__trigger" type="button" aria-label="View image: Bride walking down the aisle">
+                                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" data-full="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Bride walking down the aisle" loading="lazy">
+                            </button>
+                        </li>
+                                                                                                                                                    <li class="section-gallery__item" data-category="Amenities">
+                            <button class="section-gallery__trigger" type="button" aria-label="View image: Reception ballroom with string trio">
+                                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=80" data-full="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=80" alt="Reception ballroom with string trio" loading="lazy">
+                            </button>
+                        </li>
+                                                                                                        <li class="section-gallery__item" data-category="Amenities">
+                            <button class="section-gallery__trigger" type="button" aria-label="View image: Jazz band at reception">
+                                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" data-full="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Jazz band at reception" loading="lazy">
+                            </button>
+                        </li>
+                                                                                                        <li class="section-gallery__item" data-category="Amenities">
+                            <button class="section-gallery__trigger" type="button" aria-label="View image: First dance with live strings">
+                                <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=800&q=80" data-full="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=800&q=80" alt="First dance with live strings" loading="lazy">
+                            </button>
+                        </li>
+                                                                                                                                                    <li class="section-gallery__item" data-category="Neighborhood">
+                            <button class="section-gallery__trigger" type="button" aria-label="View image: Musician tuning before performance">
+                                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=800&q=80" data-full="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=800&q=80" alt="Musician tuning before performance" loading="lazy">
+                            </button>
+                        </li>
+                                                                                                        <li class="section-gallery__item" data-category="Neighborhood">
+                            <button class="section-gallery__trigger" type="button" aria-label="View image: Sheet music and violin on chair">
+                                <img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=800&q=80" data-full="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=800&q=80" alt="Sheet music and violin on chair" loading="lazy">
+                            </button>
+                        </li>
+                                                                                                        <li class="section-gallery__item" data-category="Neighborhood">
+                            <button class="section-gallery__trigger" type="button" aria-label="View image: Ensemble setting up at venue">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=800&q=80" data-full="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=800&q=80" alt="Ensemble setting up at venue" loading="lazy">
+                            </button>
+                        </li>
+                                                        </ul>
+    </div>
+
+    
+    <div class="section-gallery__lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" aria-hidden="true">
+        <button class="section-gallery__lightbox-close" type="button" aria-label="Close" id="lightbox-close">&times;</button>
+        <button class="section-gallery__lightbox-prev"  type="button" aria-label="Previous image" id="lightbox-prev">&larr;</button>
+        <figure class="section-gallery__lightbox-figure">
+            <img id="lightbox-img" src="" alt="">
+            <figcaption id="lightbox-caption" class="section-gallery__lightbox-caption"></figcaption>
+        </figure>
+        <button class="section-gallery__lightbox-next"  type="button" aria-label="Next image" id="lightbox-next">&rarr;</button>
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-wedding-packages</code></div>
+    <section class="section-floor-plans">
+    <div class="container section-floor-plans__inner">
+                    <header class="section-floor-plans__intro">
+                <span class="section-floor-plans__preheader">Wedding Packages</span>                <h2 class="section-floor-plans__header">Four collections, each named for a bloom.</h2>                            </header>
+
+                    <div class="section-floor-plans__filters" role="tablist" aria-label="Package filters">
+                                                        <button class="section-floor-plans__filter  section-floor-plans__filter--active " data-filter="all" role="tab" aria-selected="true" type="button">All</button>
+                                                        <button class="section-floor-plans__filter " data-filter="0" role="tab" aria-selected="false" type="button">Ceremony</button>
+                                                        <button class="section-floor-plans__filter " data-filter="1" role="tab" aria-selected="false" type="button">Ceremony + Cocktail</button>
+                                                        <button class="section-floor-plans__filter " data-filter="2" role="tab" aria-selected="false" type="button">Full Wedding</button>
+                            </div>
+
+                    <ul class="section-floor-plans__list" role="list">
+                                    <li class="section-floor-plans__plan" data-beds="0">
+                                                    <figure class="section-floor-plans__plan-media">
+                                <img src="https://picsum.photos/seed/skyline-30/800/600" alt="Rose package" loading="lazy">
+                            </figure>
+                                                <div class="section-floor-plans__plan-body">
+                                                            <h3 class="section-floor-plans__plan-title">The Rose</h3>
+                                                        <ul class="section-floor-plans__plan-stats" role="list">
+                                <li>From $900</li>                                <li>30–45 min ceremony</li>                                <li>Prelude · Processional · Recessional</li>                                <li>Solo · Duo · Trio · Quartet · Harp</li>                            </ul>
+                                                            <a class="section-floor-plans__plan-cta" href="#">Inquire</a>
+                                                    </div>
+                    </li>
+                                    <li class="section-floor-plans__plan" data-beds="1">
+                                                    <figure class="section-floor-plans__plan-media">
+                                <img src="https://picsum.photos/seed/skyline-31/800/600" alt="Gardenia package" loading="lazy">
+                            </figure>
+                                                <div class="section-floor-plans__plan-body">
+                                                            <h3 class="section-floor-plans__plan-title">The Gardenia</h3>
+                                                        <ul class="section-floor-plans__plan-stats" role="list">
+                                <li>From $1,500</li>                                <li>Ceremony + Cocktail</li>                                <li>1 hour of cocktail-hour music</li>                                <li>Duo · Trio · Quartet · Harp</li>                            </ul>
+                                                            <a class="section-floor-plans__plan-cta" href="#">Inquire</a>
+                                                    </div>
+                    </li>
+                                    <li class="section-floor-plans__plan" data-beds="2">
+                                                    <figure class="section-floor-plans__plan-media">
+                                <img src="https://picsum.photos/seed/skyline-32/800/600" alt="Hydrangea package" loading="lazy">
+                            </figure>
+                                                                            <span class="section-floor-plans__plan-badge">Most Popular</span>
+                                                <div class="section-floor-plans__plan-body">
+                                                            <h3 class="section-floor-plans__plan-title">The Hydrangea</h3>
+                                                        <ul class="section-floor-plans__plan-stats" role="list">
+                                <li>From $1,800</li>                                <li>Ceremony + Cocktail + Dinner</li>                                <li>2 hours of reception music</li>                                <li>Quartet · Harp ensemble</li>                            </ul>
+                                                            <a class="section-floor-plans__plan-cta" href="#">Inquire</a>
+                                                    </div>
+                    </li>
+                                    <li class="section-floor-plans__plan" data-beds="2">
+                                                    <figure class="section-floor-plans__plan-media">
+                                <img src="https://picsum.photos/seed/skyline-33/800/600" alt="Orchid package" loading="lazy">
+                            </figure>
+                                                <div class="section-floor-plans__plan-body">
+                                                            <h3 class="section-floor-plans__plan-title">The Orchid</h3>
+                                                        <ul class="section-floor-plans__plan-stats" role="list">
+                                <li>From $2,000</li>                                <li>Ceremony + Cocktail + Dinner</li>                                <li>+ rehearsal attendance</li>                                <li>Fully customizable ensemble</li>                            </ul>
+                                                            <a class="section-floor-plans__plan-cta" href="#">Inquire</a>
+                                                    </div>
+                    </li>
+                            </ul>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-location-map</code> · variant: <code>full</code></div>
+    <section class="section-location-map section-location-map--full">
+    <div class="container section-location-map__inner">
+                    <header class="section-location-map__intro">
+                <span class="section-location-map__preheader">Service Regions</span>                <h2 class="section-location-map__header">Florida, Texas, and destination events.</h2>                            </header>
+        
+                    <div class="section-location-map__layout">
+                                    <div class="section-location-map__map">
+                        <iframe src="https://www.google.com/maps?q=Florida,USA&output=embed&z=5" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Service areas — Florida and Texas"></iframe>
+                    </div>
+                                <div class="section-location-map__sidebar">
+                                            <address class="section-location-map__address">Based in San Antonio, TX<br />
+Serving Florida &amp; Texas</address>
+                                                                                                                            <div class="section-location-map__poi-group">
+                                    <h3 class="section-location-map__poi-title">South Florida</h3>
+                                    <ul class="section-location-map__poi-list" role="list">
+                                                                                                                                    <li>Miami · Naples · Tampa</li>
+                                                                                                                                                                                <li>Palm Beach · Boca Raton</li>
+                                                                                                                                                                                <li>Jupiter · Stuart · Vero Beach</li>
+                                                                                                                        </ul>
+                                </div>
+                                                                                                                <div class="section-location-map__poi-group">
+                                    <h3 class="section-location-map__poi-title">Texas</h3>
+                                    <ul class="section-location-map__poi-list" role="list">
+                                                                                                                                    <li>San Antonio · Austin</li>
+                                                                                                                                                                                <li>Dallas · Corpus Christi</li>
+                                                                                                                                                                                <li>Houston metro · Hill Country</li>
+                                                                                                                        </ul>
+                                </div>
+                                                                                                                <div class="section-location-map__poi-group">
+                                    <h3 class="section-location-map__poi-title">Destination</h3>
+                                    <ul class="section-location-map__poi-list" role="list">
+                                                                                                                                    <li>Available nationwide</li>
+                                                                                                                                                                                <li>Caribbean &amp; Mexico</li>
+                                                                                                                                                                                <li>Travel quoted on inquiry</li>
+                                                                                                                        </ul>
+                                </div>
+                                                                                        </div>
+            </div>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-location-map</code> · variant: <code>full</code> · with <code>.svc-map</code> service-area heatmap (used on locations.html &amp; tampa.html)</div>
+    <section class="section-location-map section-location-map--full">
+    <div class="container section-location-map__inner">
+                    <header class="section-location-map__intro">
+                <span class="section-location-map__preheader">Florida Service Area</span>                <h2 class="section-location-map__header">A heatmap of the cities we serve.</h2>                <div class="section-location-map__content"><p>Custom SVG service map — featured city in deep plum, surrounding cities with soft mauve halos at their geographic positions. Used on the Locations and city detail pages.</p></div>            </header>
+
+                    <div class="section-location-map__layout">
+                                    <div class="section-location-map__map svc-map-wrap">
+                        <svg class="svc-map" viewBox="-40 -10 700 510" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Florida service-area heatmap" data-region="style-guide-fl">
+                          <defs>
+                            <radialGradient id="haloSG" cx="50%" cy="50%" r="50%">
+                              <stop offset="0%" stop-color="#B794AD" stop-opacity="0.55"/>
+                              <stop offset="60%" stop-color="#B794AD" stop-opacity="0.18"/>
+                              <stop offset="100%" stop-color="#B794AD" stop-opacity="0"/>
+                            </radialGradient>
+                            <radialGradient id="haloSG-feature" cx="50%" cy="50%" r="50%">
+                              <stop offset="0%" stop-color="#492530" stop-opacity="0.45"/>
+                              <stop offset="55%" stop-color="#B794AD" stop-opacity="0.30"/>
+                              <stop offset="100%" stop-color="#B794AD" stop-opacity="0"/>
+                            </radialGradient>
+                          </defs>
+                          <text class="svc-map__state-name" x="50" y="120" font-size="120">FL</text>
+                          <path class="svc-map__outline" d="M 40 130 L 280 110 L 360 105 L 420 110 L 460 130 L 490 165 L 520 200 L 545 245 L 565 295 L 575 340 L 565 380 L 535 415 L 485 430 L 445 425 L 415 410 L 395 380 L 380 340 L 365 295 L 345 260 L 320 240 L 280 230 L 230 215 L 175 195 L 120 175 L 80 155 Z"/>
+                          <g transform="translate(40, 460)">
+              <circle class="svc-map__city svc-map__city--feature" cx="0" cy="0" r="7"/>
+              <text class="svc-map__legend" x="14" y="4">Featured city</text>
+              <circle class="svc-map__city" cx="120" cy="0" r="4"/>
+              <text class="svc-map__legend" x="132" y="4">Service area</text>
+            </g>
+                        </svg>
+                    </div>
+                                <div class="section-location-map__sidebar">
+                                            <address class="section-location-map__address">Featured: Tampa<br />12 Florida cities served</address>
+                                                                                                                            <div class="section-location-map__poi-group">
+                                    <h3 class="section-location-map__poi-title">South Florida</h3>
+                                    <ul class="section-location-map__poi-list" role="list">
+                                        <li>Miami · Naples · Fort Myers</li>
+                                        <li>Boca Raton · Fort Lauderdale</li>
+                                        <li>Key Largo · Key West</li>
+                                    </ul>
+                                </div>
+                                <div class="section-location-map__poi-group">
+                                    <h3 class="section-location-map__poi-title">Treasure Coast</h3>
+                                    <ul class="section-location-map__poi-list" role="list">
+                                        <li>Palm Beach · Jupiter</li>
+                                        <li>Stuart · Vero Beach</li>
+                                    </ul>
+                                </div>
+                                <div class="section-location-map__poi-group">
+                                    <h3 class="section-location-map__poi-title">Central &amp; North</h3>
+                                    <ul class="section-location-map__poi-list" role="list">
+                                        <li>Orlando · Jacksonville</li>
+                                    </ul>
+                                </div>
+                                                                                        </div>
+            </div>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-location-map</code> · variant: <code>preview</code></div>
+    <section class="section-location-map section-location-map--preview">
+    <div class="container section-location-map__inner">
+                    <header class="section-location-map__intro">
+                <span class="section-location-map__preheader">Where We Play</span>                <h2 class="section-location-map__header">From oceanfront to vineyard.</h2>                <div class="section-location-map__content"><p>Whether you're planning a Naples beachfront ceremony or a Hill Country reception, our musicians come to you — with instruments insured and the rehearsal time required to make your timing seamless.</p></div>            </header>
+        
+                    
+            <div class="section-location-map__preview">
+                                    <figure class="section-location-map__preview-media">
+                        <img src="https://picsum.photos/seed/skyline-35/900/600" alt="Neighborhood map preview" loading="lazy">
+                    </figure>
+                                                    <a class="btn btn--primary" href="/neighborhood">See on the Map</a>
+                            </div>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-cta-band</code> · variant: <code>bg</code></div>
+    <section class="section-cta-band section-cta-band--bg" style="background-image:url('https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=1920&q=80');">
+            <div class="section-cta-band__overlay" aria-hidden="true"></div>
+
+    <div class="container section-cta-band__inner">
+
+        <div class="section-cta-band__text">
+                                        <h2 class="section-cta-band__header">Let's compose your moment.</h2>
+                                        <p class="section-cta-band__subheader">We respond to every inquiry within 24 hours.</p>
+
+                            <div class="section-cta-band__actions">
+                                            <a href="/contact" class="btn btn--primary">Reserve Your Date</a>
+                                                                <a href="tel:8555893687" class="btn btn--secondary">Call 855.589.3687</a>
+                                    </div>
+                    </div>
+
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-cta-band</code> · variant: <code>side</code></div>
+    <section class="section-cta-band section-cta-band--side">
+    
+    <div class="container section-cta-band__inner">
+                    <figure class="section-cta-band__media">
+                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80" alt="Bride and violinist preparing for ceremony" loading="lazy">
+            </figure>
+
+        <div class="section-cta-band__text">
+                                        <h2 class="section-cta-band__header">Spring &amp; summer dates filling fast.</h2>
+                                        <p class="section-cta-band__subheader">Most peak-season dates book 6–12 months out. Inquire to confirm availability.</p>
+
+                            <div class="section-cta-band__actions">
+                                            <a href="/contact" class="btn btn--primary">Check Availability</a>
+                                                        </div>
+                    </div>
+
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-cta-band</code> · variant: <code>parallax</code></div>
+    <section class="section-cta-band section-cta-band--parallax" style="background-image:url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1920&q=80');">
+            <div class="section-cta-band__overlay" aria-hidden="true"></div>
+
+    <div class="container section-cta-band__inner">
+
+        <div class="section-cta-band__text">
+                                        <h2 class="section-cta-band__header">A refined musical experience.</h2>
+
+                            <div class="section-cta-band__actions">
+                                            <a href="/contact" class="btn btn--primary">Hear the Ensemble</a>
+                                                        </div>
+                    </div>
+
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-cta-band</code> · variant: <code>light</code></div>
+    <section class="section-cta-band section-cta-band--light">
+    
+    <div class="container section-cta-band__inner">
+        
+        <div class="section-cta-band__text">
+                                        <h2 class="section-cta-band__header">Listen to our latest performances.</h2>
+                                        <p class="section-cta-band__subheader">New clips posted weekly on YouTube and Instagram.</p>
+
+                            <div class="section-cta-band__actions">
+                                            <a href="/videos" class="btn btn--primary">Watch Videos</a>
+                                                        </div>
+                    </div>
+
+                    <figure class="section-cta-band__inline-media">
+                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1600&q=80" alt="Jazz trio performing at cocktail hour" loading="lazy">
+            </figure>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-cta-band</code> · variant: <code>dark</code></div>
+    <section class="section-cta-band section-cta-band--dark">
+    
+    <div class="container section-cta-band__inner">
+        
+        <div class="section-cta-band__text">
+                                        <h2 class="section-cta-band__header">Luxe Harmony. After dark.</h2>
+                                        <p class="section-cta-band__subheader">Evening receptions, candlelit ceremonies, and first dances under the stars.</p>
+
+                            <div class="section-cta-band__actions">
+                                            <a href="/contact" class="btn btn--primary">Reserve Your Date</a>
+                                                        </div>
+                    </div>
+
+                    <figure class="section-cta-band__inline-media">
+                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="Wedding reception at night" loading="lazy">
+            </figure>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-contact-form-and-info</code></div>
+    <section class="section-contact-form-and-info">
+    <div class="container section-contact-form-and-info__inner">
+
+        <aside class="section-contact-form-and-info__info">
+            <span class="section-contact-form-and-info__preheader">Reserve your date</span>            <h2 class="section-contact-form-and-info__header">Tell us about your celebration.</h2>            <div class="section-contact-form-and-info__content"><p>Share a few details and we'll respond within 24 hours with availability, ensemble suggestions, and a tailored quote. No call centers — just us.</p></div>
+                            <ul class="section-contact-form-and-info__items" role="list">
+                                                                        <li class="section-contact-form-and-info__item">
+                                                                    <span class="section-contact-form-and-info__item-label">Service Areas</span>
+                                                                                                    <span class="section-contact-form-and-info__item-value">Florida · Texas<br />
+Destination on request</span>
+                                                            </li>
+                                                                                                <li class="section-contact-form-and-info__item">
+                                                                    <span class="section-contact-form-and-info__item-label">Call or Text</span>
+                                                                                                    <span class="section-contact-form-and-info__item-value">855.589.3687</span>
+                                                            </li>
+                                                                                                <li class="section-contact-form-and-info__item">
+                                                                    <span class="section-contact-form-and-info__item-label">Email</span>
+                                                                                                    <span class="section-contact-form-and-info__item-value">info@luxeharmonymusic.com</span>
+                                                            </li>
+                                                                                                <li class="section-contact-form-and-info__item">
+                                                                    <span class="section-contact-form-and-info__item-label">Response Time</span>
+                                                                                                    <span class="section-contact-form-and-info__item-value">Within 24 hours<br />
+7 days a week</span>
+                                                            </li>
+                                                            </ul>
+                    </aside>
+
+        <div class="section-contact-form-and-info__form-wrap">
+            <form id="contact-form" action="https://staticsites.40spaces.com/api/v1/form-submission" method="POST" novalidate>
+                <input type="hidden" name="site_uid" value="style-guide">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="cf-name">Name <span aria-hidden="true">*</span></label>
+                        <input type="text" id="cf-name" name="name" required autocomplete="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="cf-email">Email <span aria-hidden="true">*</span></label>
+                        <input type="email" id="cf-email" name="email" required autocomplete="email">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="cf-phone">Phone</label>
+                        <input type="tel" id="cf-phone" name="phone" autocomplete="tel">
+                    </div>
+                                            <div class="form-group">
+                            <label for="cf-interest">I'm interested in</label>
+                            <select id="cf-interest" name="interest">
+                                <option value="" disabled selected>Select an option</option>
+                                                                    <option value="Wedding Ceremony">Wedding Ceremony</option>
+                                                                    <option value="Full Wedding">Ceremony + Reception</option>
+                                                                    <option value="Cocktail Hour">Cocktail Hour Only</option>
+                                                                    <option value="Private Event">Private / Corporate Event</option>
+                                                                    <option value="General inquiry">General inquiry</option>
+                                                            </select>
+                        </div>
+                                    </div>
+
+                <div class="form-row">
+                    <div class="form-group form-group--full">
+                        <label for="cf-message">Message</label>
+                        <textarea id="cf-message" name="message" rows="5"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" id="submit-btn" class="btn btn--primary">
+                    <span class="submit-text">Send Message</span>
+                    <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                    <span class="loading-text d-none">Submitting…</span>
+                </button>
+            </form>
+
+            <style>.d-none { display: none !important; }</style>
+<div id="response-message" style="display: none; margin-top: 1rem;" class="alert" role="alert"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('contact-form');
+    if (!form) return;
+
+    // Set the canonical form action
+    form.action = 'https://staticsites.40spaces.com/api/v1/form-submission';
+
+    // Inject js_init_timestamp — must be set at page-load time, not build time
+    const timestampInput = document.createElement('input');
+    timestampInput.type  = 'hidden';
+    timestampInput.name  = 'js_init_timestamp';
+    timestampInput.value = Date.now();
+    form.appendChild(timestampInput);
+
+    const submitBtn       = document.getElementById('submit-btn');
+    const responseMessage = document.getElementById('response-message');
+    const submitText      = submitBtn?.querySelector('.submit-text');
+    const loadingText     = submitBtn?.querySelector('.loading-text');
+    const spinner         = submitBtn?.querySelector('.spinner-border');
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Disable submit button and show loading state
+        if (submitBtn) submitBtn.disabled = true;
+        submitText?.classList.add('d-none');
+        loadingText?.classList.remove('d-none');
+        spinner?.classList.remove('d-none');
+
+        // Hide any previous response messages
+        responseMessage.style.display = 'none';
+        responseMessage.className = 'alert';
+
+        // Submit form via AJAX
+        fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { 'X-Requested-With': 'XMLHttpRequest' }
+        })
+        .then(response => {
+            return response.text().then(text => {
+                let data;
+                try {
+                    data = JSON.parse(text);
+                } catch (e) {
+                    data = { message: text, success: response.ok };
+                }
+                return { data, status: response.status, ok: response.ok };
+            });
+        })
+        .then(({ data, status, ok }) => {
+            let message = '', alertClass = 'alert ', isSuccess = false;
+
+            if (typeof data === 'object' && data.message) {
+                message   = data.message;
+                isSuccess = data.success || ok;
+                alertClass += isSuccess ? 'alert-success' : 'alert-danger';
+            } else if (typeof data === 'string') {
+                message   = data;
+                isSuccess = ok;
+                alertClass += ok ? 'alert-success' : 'alert-danger';
+            } else {
+                message   = JSON.stringify(data);
+                isSuccess = ok;
+                alertClass += ok ? 'alert-success' : 'alert-info';
+            }
+
+            responseMessage.className   = alertClass;
+            responseMessage.innerHTML   = message;
+            responseMessage.style.display = 'block';
+            responseMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            if (isSuccess) {
+                form.style.display = 'none';
+                form.reset();
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            responseMessage.className     = 'alert alert-danger';
+            responseMessage.innerHTML     = 'An error occurred while submitting the form. Please try again.';
+            responseMessage.style.display = 'block';
+            responseMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        })
+        .finally(() => {
+            // Re-enable submit button and restore original state
+            if (submitBtn) submitBtn.disabled = false;
+            submitText?.classList.remove('d-none');
+            loadingText?.classList.add('d-none');
+            spinner?.classList.add('d-none');
+        });
+    });
+});
+</script>
+        </div>
+
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-catering-form</code></div>
+    <section class="section-catering-form">
+    <div class="container section-catering-form__inner">
+
+        <header class="section-catering-form__intro">
+            <span class="section-catering-form__preheader">Private Events</span>            <h2 class="section-catering-form__header">Beyond weddings — let us play your moment.</h2>            <div class="section-catering-form__content"><p>From intimate proposals to corporate galas of 500. Tell us what you're imagining and we'll build the program.</p></div>        </header>
+
+        <form id="contact-form" action="https://staticsites.40spaces.com/api/v1/form-submission" method="POST" novalidate>
+            <input type="hidden" name="site_uid" value="style-guide">
+            <input type="hidden" name="form_type" value="catering">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="cat-name">Name <span aria-hidden="true">*</span></label>
+                    <input type="text" id="cat-name" name="name" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                    <label for="cat-email">Email <span aria-hidden="true">*</span></label>
+                    <input type="email" id="cat-email" name="email" required autocomplete="email">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="cat-phone">Phone <span aria-hidden="true">*</span></label>
+                    <input type="tel" id="cat-phone" name="phone" required autocomplete="tel">
+                </div>
+                                    <div class="form-group">
+                        <label for="cat-event-type">Event type</label>
+                        <select id="cat-event-type" name="event_type">
+                            <option value="" disabled selected>Select an event type</option>
+                                                            <option value="Wedding">Wedding</option>
+                                                            <option value="Corporate">Corporate</option>
+                                                            <option value="Private Dinner">Private Dinner</option>
+                                                            <option value="Holiday Party">Holiday Party</option>
+                                                    </select>
+                    </div>
+                            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="cat-date">Date</label>
+                    <input type="date" id="cat-date" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="cat-guests">Guest count</label>
+                    <input type="number" id="cat-guests" name="guest_count" min="1">
+                </div>
+            </div>
+
+                            <div class="form-row">
+                    <div class="form-group form-group--full">
+                        <label for="cat-style">Service style</label>
+                        <select id="cat-style" name="service_style">
+                            <option value="" disabled selected>Select a style</option>
+                                                            <option value="Plated">Plated</option>
+                                                            <option value="Family-style">Family-style</option>
+                                                            <option value="Buffet">Buffet</option>
+                                                            <option value="Cocktail reception">Cocktail reception</option>
+                                                    </select>
+                    </div>
+                </div>
+            
+            <div class="form-row">
+                <div class="form-group form-group--full">
+                    <label for="cat-notes">Notes</label>
+                    <textarea id="cat-notes" name="message" rows="5"></textarea>
+                </div>
+            </div>
+
+            <button type="submit" id="submit-btn" class="btn btn--primary">
+                <span class="submit-text">Submit Inquiry</span>
+                <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                <span class="loading-text d-none">Submitting…</span>
+            </button>
+        </form>
+
+        <style>.d-none { display: none !important; }</style>
+<div id="response-message" style="display: none; margin-top: 1rem;" class="alert" role="alert"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('contact-form');
+    if (!form) return;
+
+    // Set the canonical form action
+    form.action = 'https://staticsites.40spaces.com/api/v1/form-submission';
+
+    // Inject js_init_timestamp — must be set at page-load time, not build time
+    const timestampInput = document.createElement('input');
+    timestampInput.type  = 'hidden';
+    timestampInput.name  = 'js_init_timestamp';
+    timestampInput.value = Date.now();
+    form.appendChild(timestampInput);
+
+    const submitBtn       = document.getElementById('submit-btn');
+    const responseMessage = document.getElementById('response-message');
+    const submitText      = submitBtn?.querySelector('.submit-text');
+    const loadingText     = submitBtn?.querySelector('.loading-text');
+    const spinner         = submitBtn?.querySelector('.spinner-border');
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Disable submit button and show loading state
+        if (submitBtn) submitBtn.disabled = true;
+        submitText?.classList.add('d-none');
+        loadingText?.classList.remove('d-none');
+        spinner?.classList.remove('d-none');
+
+        // Hide any previous response messages
+        responseMessage.style.display = 'none';
+        responseMessage.className = 'alert';
+
+        // Submit form via AJAX
+        fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { 'X-Requested-With': 'XMLHttpRequest' }
+        })
+        .then(response => {
+            return response.text().then(text => {
+                let data;
+                try {
+                    data = JSON.parse(text);
+                } catch (e) {
+                    data = { message: text, success: response.ok };
+                }
+                return { data, status: response.status, ok: response.ok };
+            });
+        })
+        .then(({ data, status, ok }) => {
+            let message = '', alertClass = 'alert ', isSuccess = false;
+
+            if (typeof data === 'object' && data.message) {
+                message   = data.message;
+                isSuccess = data.success || ok;
+                alertClass += isSuccess ? 'alert-success' : 'alert-danger';
+            } else if (typeof data === 'string') {
+                message   = data;
+                isSuccess = ok;
+                alertClass += ok ? 'alert-success' : 'alert-danger';
+            } else {
+                message   = JSON.stringify(data);
+                isSuccess = ok;
+                alertClass += ok ? 'alert-success' : 'alert-info';
+            }
+
+            responseMessage.className   = alertClass;
+            responseMessage.innerHTML   = message;
+            responseMessage.style.display = 'block';
+            responseMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            if (isSuccess) {
+                form.style.display = 'none';
+                form.reset();
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            responseMessage.className     = 'alert alert-danger';
+            responseMessage.innerHTML     = 'An error occurred while submitting the form. Please try again.';
+            responseMessage.style.display = 'block';
+            responseMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        })
+        .finally(() => {
+            // Re-enable submit button and restore original state
+            if (submitBtn) submitBtn.disabled = false;
+            submitText?.classList.remove('d-none');
+            loadingText?.classList.add('d-none');
+            spinner?.classList.add('d-none');
+        });
+    });
+});
+</script>
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-faq</code></div>
+    <section class="section-faq" id="faq">
+    <div class="container section-faq__inner">
+
+                    <header class="section-faq__intro">
+                <span class="section-faq__preheader">Common questions</span>                <h2 class="section-faq__header">The questions we hear most often.</h2>                            </header>
+        
+                    <ul class="section-faq__list" role="list">
+                                                                                    <li class="section-faq__item">
+                            <button class="section-faq__trigger" type="button" id="faq-trigger-1" aria-expanded="false" aria-controls="faq-panel-1">
+                                <span class="section-faq__question">How much do you charge?</span>
+                                <span class="section-faq__icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="section-faq__panel" id="faq-panel-1" role="region" aria-labelledby="faq-trigger-1" aria-hidden="true">
+                                <div class="section-faq__answer"><p>Pricing varies by ensemble size and duration. Most clients invest around $3,000 for a full wedding, with services starting as low as $350.</p></div>
+                            </div>
+                        </li>
+                                                                                                        <li class="section-faq__item">
+                            <button class="section-faq__trigger" type="button" id="faq-trigger-2" aria-expanded="false" aria-controls="faq-panel-2">
+                                <span class="section-faq__question">Can we choose the music for our ceremony?</span>
+                                <span class="section-faq__icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="section-faq__panel" id="faq-panel-2" role="region" aria-labelledby="faq-trigger-2" aria-hidden="true">
+                                <div class="section-faq__answer"><p>Absolutely. We maintain a sweeping repertoire — classical, pop, film themes, jazz, Latin, Broadway — and welcome custom song requests. Special arrangements need 2–4 weeks' notice.</p></div>
+                            </div>
+                        </li>
+                                                                                                        <li class="section-faq__item">
+                            <button class="section-faq__trigger" type="button" id="faq-trigger-3" aria-expanded="false" aria-controls="faq-panel-3">
+                                <span class="section-faq__question">Do you perform at outdoor weddings?</span>
+                                <span class="section-faq__icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="section-faq__panel" id="faq-panel-3" role="region" aria-labelledby="faq-trigger-3" aria-hidden="true">
+                                <div class="section-faq__answer"><p>Yes — outdoor weddings require adequate shelter, as string instruments are sensitive to moisture, direct sun, and temperature extremes.</p></div>
+                            </div>
+                        </li>
+                                                                                                        <li class="section-faq__item">
+                            <button class="section-faq__trigger" type="button" id="faq-trigger-4" aria-expanded="false" aria-controls="faq-panel-4">
+                                <span class="section-faq__question">How do I book Luxe Harmony?</span>
+                                <span class="section-faq__icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="section-faq__panel" id="faq-panel-4" role="region" aria-labelledby="faq-trigger-4" aria-hidden="true">
+                                <div class="section-faq__answer"><p>Submit our inquiry form, email info@luxeharmonymusic.com, or call/text 855.589.3687. We respond within 24 hours with a tailored quote.</p></div>
+                            </div>
+                        </li>
+                                                </ul>
+            </div>
+
+            <script type="application/ld+json">
+            {"<?php $__contextArgs = [];\nif (context()->has($__contextArgs[0])) :\nif (isset($value)) { $__contextPrevious[] = $value; }\n$value = context()->get($__contextArgs[0]); ?>":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are pets allowed?","acceptedAnswer":{"@type":"Answer","text":"Yes. Two pets per residence, no breed restrictions, no weight limits. A one-time pet deposit applies."}},{"@type":"Question","name":"What's the application process?","acceptedAnswer":{"@type":"Answer","text":"Submit online, provide proof of income (2.5x monthly rent), consent to a credit and background check. Decisions in 48 hours."}},{"@type":"Question","name":"Is parking available?","acceptedAnswer":{"@type":"Answer","text":"Yes — reserved garage parking with EV charging on every level. Additional monthly fee."}},{"@type":"Question","name":"What's included in rent?","acceptedAnswer":{"@type":"Answer","text":"Rent covers your residence, water, trash, and amenity access. Electricity, gas, and internet are billed separately."}}]}
+        </script>
+    </section>
+
+    <div class="style-guide-marker"><code>section-team-grid</code></div>
+    <section class="section-team-grid">
+        <div class="container section-team-grid__inner">
+                            <header class="section-team-grid__intro">
+                    <span class="section-team-grid__preheader">The Ensemble</span>                    <h2 class="section-team-grid__header">Meet the musicians.</h2>                                    </header>
+            
+            <ul class="section-team-grid__list" role="list">
+                                    <li class="section-team-grid__member">
+                                                    <figure class="section-team-grid__photo">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80" alt="Krystle, founder and violinist" loading="lazy">
+                            </figure>
+                                                                            <h3 class="section-team-grid__name">Krystle</h3>
+                                                                            <p class="section-team-grid__position">Founder · Violin</p>
+                                                                            <div class="section-team-grid__bio"><p>Founded Luxe Harmony in 2012. Conservatory-trained violinist with a passion for arranging classical pieces into modern wedding moments.</p></div>
+                                                                            <ul class="section-team-grid__socials" role="list">
+                                <li><a href="#" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn">in</a></li>                                                                <li><a href="#" rel="noopener noreferrer" target="_blank" aria-label="Instagram">ig</a></li>                            </ul>
+                                            </li>
+                                    <li class="section-team-grid__member">
+                                                    <figure class="section-team-grid__photo">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80" alt="Cellist" loading="lazy">
+                            </figure>
+                                                                            <h3 class="section-team-grid__name">Marcus</h3>
+                                                                            <p class="section-team-grid__position">Principal Cello</p>
+                                                                            <div class="section-team-grid__bio"><p>Symphony orchestra member with credits performing alongside Andrea Bocelli and at Carnegie Hall.</p></div>
+                                                                            <ul class="section-team-grid__socials" role="list">
+                                <li><a href="#" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn">in</a></li>                                                                                            </ul>
+                                            </li>
+                                    <li class="section-team-grid__member">
+                                                    <figure class="section-team-grid__photo">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=500&q=80" alt="Harpist" loading="lazy">
+                            </figure>
+                                                                            <h3 class="section-team-grid__name">Nadia</h3>
+                                                                            <p class="section-team-grid__position">Harp · Music Educator</p>
+                                                                            <div class="section-team-grid__bio"><p>Master of harp's most romantic moments. Coordinates ceremony timing with the most discerning planners.</p></div>
+                                                                            <ul class="section-team-grid__socials" role="list">
+                                                                                                <li><a href="#" rel="noopener noreferrer" target="_blank" aria-label="Instagram">ig</a></li>                            </ul>
+                                            </li>
+                            </ul>
+        </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-testimonials-grid</code></div>
+    <section class="section-testimonials-grid">
+        <div class="container section-testimonials-grid__inner">
+                            <header class="section-testimonials-grid__intro">
+                    <span class="section-testimonials-grid__preheader">In their words</span>                    <h2 class="section-testimonials-grid__header">From couples we've played for.</h2>                </header>
+            
+            <ul class="section-testimonials-grid__list" role="list">
+                                    <li class="section-testimonials-grid__item">
+                                                    <span class="section-testimonials-grid__rating" aria-label="5 of 5 stars">★★★★★</span>
+                                                                            <blockquote class="section-testimonials-grid__quote">My wedding string quartet was incredible. My guests were so impressed by the variety of songs and genres they were able to play.</blockquote>
+                                                <div class="section-testimonials-grid__attribution">
+                                                            <img class="section-testimonials-grid__photo" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Jessica" loading="lazy">
+                                                                                        <cite class="section-testimonials-grid__name">Jessica · April 2026 Bride</cite>
+                                                    </div>
+                    </li>
+                                    <li class="section-testimonials-grid__item">
+                                                    <span class="section-testimonials-grid__rating" aria-label="5 of 5 stars">★★★★★</span>
+                                                                            <blockquote class="section-testimonials-grid__quote">Our custom first-dance arrangement made me cry. They captured the soul of the song in a way I didn't think possible.</blockquote>
+                                                <div class="section-testimonials-grid__attribution">
+                                                            <img class="section-testimonials-grid__photo" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80" alt="Olivia" loading="lazy">
+                                                                                        <cite class="section-testimonials-grid__name">Olivia · Naples Wedding</cite>
+                                                    </div>
+                    </li>
+                                    <li class="section-testimonials-grid__item">
+                                                    <span class="section-testimonials-grid__rating" aria-label="5 of 5 stars">★★★★★</span>
+                                                                            <blockquote class="section-testimonials-grid__quote">From the prelude to the last note of the recessional — every detail of our ceremony music was flawless. Worth every penny.</blockquote>
+                                                <div class="section-testimonials-grid__attribution">
+                                                            <img class="section-testimonials-grid__photo" src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=150&q=80" alt="Megan" loading="lazy">
+                                                                                        <cite class="section-testimonials-grid__name">Megan &amp; Sam · Austin</cite>
+                                                    </div>
+                    </li>
+                            </ul>
+        </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-service-pillar</code></div>
+    <section class="section-service-pillar section-service-pillar--image-left">
+    <div class="container section-service-pillar__inner">
+
+                    <figure class="section-service-pillar__media">
+                <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80" alt="String quartet performing at wedding ceremony" loading="lazy">
+            </figure>
+        
+        <div class="section-service-pillar__text">
+                            <span class="section-service-pillar__preheader">Why Luxe Harmony</span>
+                                        <h2 class="section-service-pillar__header">Musicians who treat your day like a performance.</h2>
+                                        <p class="section-service-pillar__lead">Because that's exactly what it is. Every ensemble arrives early, dresses in unobtrusive formalwear, and treats your wedding with the same care they'd bring to the concert hall.</p>
+                                        <div class="section-service-pillar__content"><p>Grammy-nominated artists. Symphony members. Conservatory graduates. Selected by audition for tone, sight-reading, and musicality — and matched to your event's atmosphere.</p></div>
+
+                            <div class="section-service-pillar__deliverables">
+                                            <h3 class="section-service-pillar__sub-heading">Every booking includes</h3>
+                                        <ul class="section-service-pillar__deliverables-list" role="list">
+                                                                                    <li>Personal consultation &amp; repertoire planning</li>
+                                                                                                                <li>Custom processional &amp; recessional selection</li>
+                                                                                                                <li>Coordination with planner &amp; officiant</li>
+                                                                                                                <li>Insured instruments &amp; professional attire</li>
+                                                                                                                <li>Amplification at no extra cost when needed</li>
+                                                                        </ul>
+                </div>
+
+                            <div class="section-service-pillar__ideal">
+                                            <h3 class="section-service-pillar__sub-heading">For couples who</h3>
+                                        <p>Want the music to feel as considered as every other detail of the day.</p>
+                </div>
+                    </div>
+
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-atmosphere-mosaic</code></div>
+    <section class="section-atmosphere-mosaic">
+    <div class="container section-atmosphere-mosaic__inner">
+
+                    <header class="section-atmosphere-mosaic__quote-block">
+                                    <blockquote class="section-atmosphere-mosaic__quote">"Every moment felt cinematic — the music carried our entire day."</blockquote>
+                                                    <cite class="section-atmosphere-mosaic__cite">— Luxe Harmony Bride</cite>
+                            </header>
+        
+                    <div class="section-atmosphere-mosaic__grid">
+                                                            <figure class="section-atmosphere-mosaic__tile section-atmosphere-mosaic__tile--1">
+                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Lobby detail" loading="lazy">
+                        </figure>
+                                                                                <figure class="section-atmosphere-mosaic__tile section-atmosphere-mosaic__tile--2">
+                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Window light" loading="lazy">
+                        </figure>
+                                                                                <figure class="section-atmosphere-mosaic__tile section-atmosphere-mosaic__tile--3">
+                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Bedroom corner" loading="lazy">
+                        </figure>
+                                                                                <figure class="section-atmosphere-mosaic__tile section-atmosphere-mosaic__tile--4">
+                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Library nook" loading="lazy">
+                        </figure>
+                                                                                <figure class="section-atmosphere-mosaic__tile section-atmosphere-mosaic__tile--5">
+                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Skyline view" loading="lazy">
+                        </figure>
+                                                </div>
+            </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-zoom-parallax</code></div>
+    <section class="section-zoom-parallax">
+        <div class="section-zoom-parallax__sticky">
+                                                <figure class="section-zoom-parallax__layer section-zoom-parallax__layer--1">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="View 1" loading="lazy">
+                    </figure>
+                                                                <figure class="section-zoom-parallax__layer section-zoom-parallax__layer--2">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="View 2" loading="lazy">
+                    </figure>
+                                                                <figure class="section-zoom-parallax__layer section-zoom-parallax__layer--3">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="View 3" loading="lazy">
+                    </figure>
+                                                                <figure class="section-zoom-parallax__layer section-zoom-parallax__layer--4">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="View 4" loading="lazy">
+                    </figure>
+                                                                <figure class="section-zoom-parallax__layer section-zoom-parallax__layer--5">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="View 5" loading="lazy">
+                    </figure>
+                                                                <figure class="section-zoom-parallax__layer section-zoom-parallax__layer--6">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="View 6" loading="lazy">
+                    </figure>
+                                                                <figure class="section-zoom-parallax__layer section-zoom-parallax__layer--7">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="View 7" loading="lazy">
+                    </figure>
+                            
+            <div class="section-zoom-parallax__copy">
+                <span class="section-zoom-parallax__preheader">A refined musical experience</span>                <h2 class="section-zoom-parallax__header">The soundtrack of your forever.</h2>            </div>
+        </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-restaurant-menu</code></div>
+    <section class="section-restaurant-menu">
+        <div class="container section-restaurant-menu__inner">
+
+                            <header class="section-restaurant-menu__intro">
+                    <span class="section-restaurant-menu__preheader">Repertoire</span>                    <h2 class="section-restaurant-menu__header">A selection of favorites.</h2>                </header>
+            
+                            
+                <div class="section-restaurant-menu__menu">
+                                            <h3 class="section-restaurant-menu__menu-title">Our Library</h3>
+                                                                <p class="section-restaurant-menu__menu-description">Hundreds of titles in our standing repertoire — and we'll learn yours.</p>
+                    
+                                                                        <div class="section-restaurant-menu__category">
+                                <h4 class="section-restaurant-menu__category-title">Processionals</h4>
+                                <ul class="section-restaurant-menu__items" role="list">
+                                                                            <li class="menu-item">
+        <div class="menu-item__body">
+                    <h5 class="menu-item__title">
+                Canon in D — Pachelbel
+                                                            <span class="dietary-tag dietary-tag--v" aria-label="Classical">CL</span>
+                                                                                <span class="dietary-tag dietary-tag--gf" aria-label="Most requested">★</span>
+                                                </h5>
+                            <p class="menu-item__description">The timeless choice. Adaptable for any ensemble.</p>
+            </div>
+            <span class="menu-item__price">Classical</span>
+    </li>
+                                                                    </ul>
+                            </div>
+                                                    <div class="section-restaurant-menu__category">
+                                <h4 class="section-restaurant-menu__category-title">Contemporary Favorites</h4>
+                                <ul class="section-restaurant-menu__items" role="list">
+                                                                            <li class="menu-item">
+        <div class="menu-item__body">
+                    <h5 class="menu-item__title">
+                A Thousand Years — Christina Perri
+                                                            <span class="dietary-tag dietary-tag--gf" aria-label="Pop">POP</span>
+                                                                                <span class="dietary-tag dietary-tag--df" aria-label="Most requested">★</span>
+                                                </h5>
+                            <p class="menu-item__description">A modern processional standard.</p>
+            </div>
+            <span class="menu-item__price">Contemporary</span>
+    </li>
+                                                                            <li class="menu-item">
+        <div class="menu-item__body">
+                    <h5 class="menu-item__title">
+                Perfect — Ed Sheeran
+                                                            <span class="dietary-tag dietary-tag--v" aria-label="Pop">POP</span>
+                                                </h5>
+                            <p class="menu-item__description">A favorite for first dances and recessionals.</p>
+            </div>
+            <span class="menu-item__price">Contemporary</span>
+    </li>
+                                                                    </ul>
+                            </div>
+                                                    <div class="section-restaurant-menu__category">
+                                <h4 class="section-restaurant-menu__category-title">Jazz Standards</h4>
+                                <ul class="section-restaurant-menu__items" role="list">
+                                                                            <li class="menu-item">
+        <div class="menu-item__body">
+                    <h5 class="menu-item__title">
+                Fly Me to the Moon — Sinatra
+                                                            <span class="dietary-tag dietary-tag--v" aria-label="Jazz">JZ</span>
+                                                </h5>
+                            <p class="menu-item__description">Cocktail-hour perfection.</p>
+            </div>
+            <span class="menu-item__price">Jazz</span>
+    </li>
+                                                                    </ul>
+                            </div>
+                                            
+                                            <ul class="section-restaurant-menu__legend" role="list" aria-label="Dietary legend">
+                            <li><span class="dietary-tag dietary-tag--v">CL</span> Classical</li>
+                            <li><span class="dietary-tag dietary-tag--v">POP</span> Pop / Contemporary</li>
+                            <li><span class="dietary-tag dietary-tag--gf">JZ</span> Jazz Standard</li>
+                            <li><span class="dietary-tag dietary-tag--df">FILM</span> Film Score</li>
+                            <li><span class="favorite-tag">★</span> Most requested</li>
+                        </ul>
+                                    </div>
+                    </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-signature-dishes</code></div>
+    <section class="section-signature-dishes">
+        <div class="container section-signature-dishes__inner">
+
+                            <header class="section-signature-dishes__intro">
+                    <span class="section-signature-dishes__preheader">Signature pieces</span>                    <h2 class="section-signature-dishes__header">The arrangements we're known for.</h2>                    <p class="section-signature-dishes__subheader">Pieces our ensemble has reimagined and made our own.</p>                </header>
+            
+            <ul class="section-signature-dishes__list" role="list">
+                                                        <li class="section-signature-dishes__card">
+                                                    <figure class="section-signature-dishes__media">
+                                <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80" alt="String quartet performance" loading="lazy">
+                            </figure>
+                                                <div class="section-signature-dishes__body">
+                                                            <h3 class="section-signature-dishes__title">
+                                    Canon in D — Quartet
+                                                                                                                        <span class="dietary-tag dietary-tag--gf">CL</span>
+                                                                                                                                                                <span class="favorite-tag" aria-label="Most requested">★</span>
+                                                                                                            </h3>
+                                                                                        <p class="section-signature-dishes__description">Our most-requested processional arrangement.</p>
+                                                                                        <span class="section-signature-dishes__price">Listen ♪</span>
+                                                    </div>
+                    </li>
+                                                        <li class="section-signature-dishes__card">
+                                                    <figure class="section-signature-dishes__media">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=900&q=80" alt="Harp performance" loading="lazy">
+                            </figure>
+                                                <div class="section-signature-dishes__body">
+                                                            <h3 class="section-signature-dishes__title">
+                                    A Thousand Years — Harp &amp; Strings
+                                                                                                                        <span class="dietary-tag dietary-tag--v">POP</span>
+                                                                                                            </h3>
+                                                                                        <p class="section-signature-dishes__description">A custom arrangement for the modern ceremony.</p>
+                                                                                        <span class="section-signature-dishes__price">Listen ♪</span>
+                                                    </div>
+                    </li>
+                                                        <li class="section-signature-dishes__card">
+                                                    <figure class="section-signature-dishes__media">
+                                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Jazz trio at cocktail hour" loading="lazy">
+                            </figure>
+                                                <div class="section-signature-dishes__body">
+                                                            <h3 class="section-signature-dishes__title">
+                                    La Vie en Rose — Jazz Trio
+                                                                                                                        <span class="dietary-tag dietary-tag--gf">JZ</span>
+                                                                                                                                                                <span class="favorite-tag" aria-label="Most requested">★</span>
+                                                                                                            </h3>
+                                                                                        <p class="section-signature-dishes__description">A cocktail-hour favorite. Effortlessly elegant.</p>
+                                                                                        <span class="section-signature-dishes__price">Listen ♪</span>
+                                                    </div>
+                    </li>
+                            </ul>
+        </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-specials-by-day</code></div>
+    <section class="section-specials-by-day">
+        <div class="container section-specials-by-day__inner">
+
+                            <header class="section-specials-by-day__intro">
+                    <span class="section-specials-by-day__preheader">A Wedding Timeline</span>                    <h2 class="section-specials-by-day__header">Music for every moment of your day.</h2>                </header>
+
+            <ul class="section-specials-by-day__list" role="list">
+                                    <li class="section-specials-by-day__day">
+                                                    <span class="section-specials-by-day__day-name">Prelude</span>
+                                                                            <h3 class="section-specials-by-day__title">Guest Arrival</h3>
+                                                                            <p class="section-specials-by-day__description">15–30 min of soft, atmospheric music.</p>
+                                            </li>
+                                    <li class="section-specials-by-day__day">
+                                                    <span class="section-specials-by-day__day-name">Processional</span>
+                                                                            <h3 class="section-specials-by-day__title">The Walk Down</h3>
+                                                                            <p class="section-specials-by-day__description">Wedding party and bridal entrance pieces.</p>
+                                            </li>
+                                    <li class="section-specials-by-day__day">
+                                                    <span class="section-specials-by-day__day-name">Ceremony</span>
+                                                                            <h3 class="section-specials-by-day__title">The Vows</h3>
+                                                                            <p class="section-specials-by-day__description">Soft underscore during unity moments.</p>
+                                            </li>
+                                    <li class="section-specials-by-day__day">
+                                                    <span class="section-specials-by-day__day-name">Recessional</span>
+                                                                            <h3 class="section-specials-by-day__title">The First Kiss</h3>
+                                                                            <p class="section-specials-by-day__description">Joyful, uplifting exit music.</p>
+                                            </li>
+                                    <li class="section-specials-by-day__day">
+                                                    <span class="section-specials-by-day__day-name">Cocktail</span>
+                                                                            <h3 class="section-specials-by-day__title">The Mingling</h3>
+                                                                            <p class="section-specials-by-day__description">Jazz standards and elegant strings.</p>
+                                            </li>
+                                    <li class="section-specials-by-day__day">
+                                                    <span class="section-specials-by-day__day-name">Dinner</span>
+                                                                            <h3 class="section-specials-by-day__title">The Meal</h3>
+                                                                            <p class="section-specials-by-day__description">Soft instrumental dinner sets.</p>
+                                            </li>
+                                    <li class="section-specials-by-day__day">
+                                                    <span class="section-specials-by-day__day-name">First Dance</span>
+                                                                            <h3 class="section-specials-by-day__title">The Moment</h3>
+                                                                            <p class="section-specials-by-day__description">Your favorite song, arranged for you.</p>
+                                            </li>
+                            </ul>
+        </div>
+    </section>
+
+    <div class="style-guide-marker"><code>section-posts-listing</code></div>
+    <section class="section-posts-listing" data-source="posts" data-pagination="load_more" data-per-page="6">
+    <div class="container section-posts-listing__inner">
+
+                    <header class="section-posts-listing__intro">
+                <span class="section-posts-listing__preheader">The Journal</span>                <h2 class="section-posts-listing__header">Wedding music inspiration.</h2>                            </header>
+
+                    <div class="section-posts-listing__filters" role="tablist" aria-label="Post filters">
+                <button class="section-posts-listing__filter section-posts-listing__filter--active" data-filter="all" role="tab" aria-selected="true" type="button">All</button>
+                                                            <button class="section-posts-listing__filter" data-filter="operations" role="tab" aria-selected="false" type="button">Planning Tips</button>
+                                                                                <button class="section-posts-listing__filter" data-filter="amenities" role="tab" aria-selected="false" type="button">Repertoire</button>
+                                                                                <button class="section-posts-listing__filter" data-filter="design" role="tab" aria-selected="false" type="button">Real Weddings</button>
+                                                </div>
+        
+                    <article class="post-card  post-card--featured ">
+            <a class="post-card__media" href="/posts/processional-song" tabindex="-1" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="Choosing your processional song" loading="lazy">
+        </a>
+        <div class="post-card__body">
+                    <p class="post-card__meta">
+                <time  datetime="2026-03-18" >Mar 18, 2026</time>                 &nbsp;·&nbsp;                 Planning Tips            </p>
+                            <h3 class="post-card__title"><a href="/posts/processional-song">Choosing your processional song.</a></h3>
+                                                    <p class="post-card__excerpt">The piece you walk down the aisle to sets the tone for everything that follows. Here's how to choose with intention.</p>
+                <a class="post-card__link" href="/posts/processional-song">Read more</a>
+    </div>
+</article>
+        
+                    <ul class="section-posts-listing__list" role="list">
+                                    <li class="section-posts-listing__item" data-categories="amenities">
+                        <article class="post-card ">
+            <a class="post-card__media" href="/posts/string-quartet-vs-solo" tabindex="-1" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80" alt="String quartet vs solo violin" loading="lazy">
+        </a>
+        <div class="post-card__body">
+                    <p class="post-card__meta">
+                <time  datetime="2026-02-27" >Feb 27, 2026</time>                 &nbsp;·&nbsp;                 Planning Tips            </p>
+                            <h3 class="post-card__title"><a href="/posts/string-quartet-vs-solo">String quartet vs. solo violin.</a></h3>
+                                                    <p class="post-card__excerpt">How venue size, guest count, and atmosphere should shape your ensemble decision.</p>
+                <a class="post-card__link" href="/posts/string-quartet-vs-solo">Read more</a>
+    </div>
+</article>
+                    </li>
+                                    <li class="section-posts-listing__item" data-categories="operations">
+                        <article class="post-card ">
+            <a class="post-card__media" href="/posts/florida-inspiration" tabindex="-1" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=900&q=80" alt="Florida wedding music inspiration" loading="lazy">
+        </a>
+        <div class="post-card__body">
+                    <p class="post-card__meta">
+                <time  datetime="2026-02-10" >Feb 10, 2026</time>                 &nbsp;·&nbsp;                 Real Weddings            </p>
+                            <h3 class="post-card__title"><a href="/posts/florida-inspiration">The Florida wedding music guide.</a></h3>
+                                                    <p class="post-card__excerpt">From oceanfront ceremonies in Naples to garden weddings in Palm Beach — songs to set the mood.</p>
+                <a class="post-card__link" href="/posts/florida-inspiration">Read more</a>
+    </div>
+</article>
+                    </li>
+                                    <li class="section-posts-listing__item" data-categories="design">
+                        <article class="post-card ">
+            <a class="post-card__media" href="/posts/custom-arrangements" tabindex="-1" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Custom arrangements" loading="lazy">
+        </a>
+        <div class="post-card__body">
+                    <p class="post-card__meta">
+                <time  datetime="2026-01-22" >Jan 22, 2026</time>                 &nbsp;·&nbsp;                 Repertoire            </p>
+                            <h3 class="post-card__title"><a href="/posts/custom-arrangements">Custom arrangements — bringing your song to life.</a></h3>
+                                                    <p class="post-card__excerpt">What it takes to translate your favorite track into a wedding-ready string arrangement.</p>
+                <a class="post-card__link" href="/posts/custom-arrangements">Read more</a>
+    </div>
+</article>
+                    </li>
+                            </ul>
+        
+                    <div class="section-posts-listing__pagination">
+                <button class="btn btn--secondary" type="button" data-action="load-more">Load more</button>
+            </div>
+        
+    </div>
+</section>
+
+    <div class="style-guide-marker"><code>section-related-articles</code></div>
+    <section class="section-related-articles">
+        <div class="container section-related-articles__inner">
+                            <header class="section-related-articles__intro">
+                    <span class="section-related-articles__preheader">Continue reading</span>                    <h2 class="section-related-articles__header">More wedding music stories.</h2>                </header>
+            
+            <ul class="section-related-articles__list" role="list">
+                                                        <li class="section-related-articles__item">
+                                                    <a class="section-related-articles__media" href="/posts/cocktail-music" aria-hidden="true" tabindex="-1">
+                                <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80" alt="Cocktail hour music" loading="lazy">
+                            </a>
+                                                <div class="section-related-articles__body">
+                                                            <span class="section-related-articles__category">Planning Tips</span>
+                                                                                        <h3 class="section-related-articles__item-title"><a href="/posts/cocktail-music">Cocktail hour music — jazz vs. strings.</a></h3>
+                                                                                        <time class="section-related-articles__date"  datetime="2026-02-27" >Feb 27, 2026</time>
+                                                    </div>
+                    </li>
+                                                        <li class="section-related-articles__item">
+                                                    <a class="section-related-articles__media" href="/posts/outdoor-weddings" aria-hidden="true" tabindex="-1">
+                                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=80" alt="Outdoor wedding music" loading="lazy">
+                            </a>
+                                                <div class="section-related-articles__body">
+                                                            <span class="section-related-articles__category">Planning Tips</span>
+                                                                                        <h3 class="section-related-articles__item-title"><a href="/posts/outdoor-weddings">Planning an outdoor ceremony with live music.</a></h3>
+                                                                                        <time class="section-related-articles__date"  datetime="2026-02-10" >Feb 10, 2026</time>
+                                                    </div>
+                    </li>
+                                                        <li class="section-related-articles__item">
+                                                    <a class="section-related-articles__media" href="/posts/first-dance" aria-hidden="true" tabindex="-1">
+                                <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=900&q=80" alt="First dance arrangement" loading="lazy">
+                            </a>
+                                                <div class="section-related-articles__body">
+                                                            <span class="section-related-articles__category">Repertoire</span>
+                                                                                        <h3 class="section-related-articles__item-title"><a href="/posts/first-dance">Arranging your first dance.</a></h3>
+                                                                                        <time class="section-related-articles__date"  datetime="2026-01-22" >Jan 22, 2026</time>
+                                                    </div>
+                    </li>
+                            </ul>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+    <div class="container site-footer__inner">
+
+        <div class="site-footer__brand">
+            <a href="/" class="site-footer__logo">Luxe Harmony</a>
+                            <p class="site-footer__tagline">A refined musical experience.</p>
+                    </div>
+
+                    <nav class="site-footer__nav" aria-label="Footer">
+                <h4 class="site-footer__heading">Explore</h4>
+                <ul role="list">
+                                            <li><a href="/about">About</a></li>
+                                            <li><a href="/services">Services</a></li>
+                                            <li><a href="locations.html">Locations</a></li>
+                                            <li><a href="/blog">Blog</a></li>
+                                            <li><a href="/faq">FAQ</a></li>
+                                            <li><a href="/contact">Contact</a></li>
+                                    </ul>
+            </nav>
+
+        <div class="site-footer__contact">
+            <h4 class="site-footer__heading">Reach Us</h4>
+                            <address class="site-footer__address">Florida · Texas<br />
+Destination on request</address>
+                                        <p><a href="tel:8555893687">855.589.3687</a></p>
+                                        <p><a href="mailto:info@luxeharmonymusic.com">info@luxeharmonymusic.com</a></p>
+                    </div>
+
+    </div>
+
+    <div class="site-footer__bottom">
+        <div class="container">
+            <p>&copy; 2026 Luxe Harmony, LLC. All rights reserved. · 2025 Best Musician Award · Insured.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- BASE JS — do not remove. Functional behavior (FAQ accordion, lightbox, filters, mobile nav) lives here. -->
+<script src="./site.js" defer></script>
+
+<!-- THEME JS — Luxe Harmony scroll-reveal effects. -->
+<script src="./site-luxeharmony.js" defer></script>
+
+
+</body>
+</html>
