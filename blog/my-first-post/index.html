@@ -171,5 +171,43 @@
 
 <script src="../../site.js" defer></script>
 <script src="../../site-luxeharmony.js" defer></script>
+<!--modo:databind-->
+<script>(function(){
+var S={"westover":"https://upbeat-peccary-820.convex.site/feed/70f90ddfd93d3e2b7c423378"};
+function res(rec,path){var p=path.split('.'),c=rec;for(var i=0;i<p.length;i++){if(c==null)return null;c=c[p[i]];}return c!=null?String(c):null;}
+function fill(el,rec){
+  var bf=el.getAttribute('data-modo-bind');if(bf!=null){var v=res(rec,bf);if(v!=null)el.textContent=v;}
+  var ba=el.getAttribute('data-modo-bind-attr');if(ba)ba.split(',').forEach(function(p){var x=p.split(':');if(x.length<2)return;var a=x[0].trim(),f=x[1].trim(),v=res(rec,f);if(v!=null)el.setAttribute(a,v);});
+}
+function bind(node,rec){
+  if(node.getAttribute('data-modo-bind')!=null||node.getAttribute('data-modo-bind-attr'))fill(node,rec);
+  var ns=node.querySelectorAll('[data-modo-bind],[data-modo-bind-attr]');
+  for(var i=0;i<ns.length;i++)fill(ns[i],rec);
+}
+function run(){
+  var cache={};
+  function get(url){if(!cache[url])cache[url]=fetch(url).then(function(r){return r.json();});return cache[url];}
+  for(var key in S){(function(key){
+    var url=S[key];
+    get(url).then(function(d){
+      var recs=Array.isArray(d)?d:[d];if(!recs.length||recs[0]==null)return;
+      // Collection: fill repeater containers
+      var reps=document.querySelectorAll('[data-modo-repeat="'+key+'"]');
+      for(var i=0;i<reps.length;i++){(function(rep){
+        var tpl=rep.querySelector('[data-modo-item]')||rep.firstElementChild;if(!tpl)return;
+        var proto=tpl.cloneNode(true);if(proto.removeAttribute)proto.removeAttribute('data-modo-item');
+        rep.innerHTML='';
+        for(var j=0;j<recs.length;j++){var n=proto.cloneNode(true);bind(n,recs[j]);rep.appendChild(n);}
+      })(reps[i]);}
+      // Page-level bindings outside any repeater — always use the first record
+      var rec=recs[0];
+      var els=document.querySelectorAll('[data-modo-bind],[data-modo-bind-attr]');
+      for(var i=0;i<els.length;i++){if(!els[i].closest('[data-modo-repeat]'))fill(els[i],rec);}
+    }).catch(function(){});
+  })(key);}
+}
+if(document.readyState!='loading')run();else document.addEventListener('DOMContentLoaded',run);
+})();</script>
+<!--/modo:databind-->
 </body>
 </html>
